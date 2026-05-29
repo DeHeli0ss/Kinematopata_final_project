@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+header{
+    width: 100%;
+}
+
+header img{
+    width: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+}
+
+nav{
+    width: 100%;
+    background-color: #000000;
+}
+
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li{
+    flex: 1 1 150px;
+    background: #333333;
+    position: relative;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+#nav li a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#nav li:hover{
+    background-color: #555555;
+}
+
+#nav li:hover ul{
+    display: block;
+}
+
+#nav li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+#nav li ul li{
+    margin: 0;
+}
+
+#nav li ul li a{
+    padding: 10px 15px;
+}
+
+main{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#newest-articles {
+    background: #666666;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.articles-header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.titles-artciles-dot{
+    width: 10px;
+    height: 10px;
+    background-color:#c9a96e;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.articles-header h2{
+    margin: 0;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
