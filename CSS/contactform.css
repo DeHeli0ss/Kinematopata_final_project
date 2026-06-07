@@ -1,0 +1,176 @@
+/* Główny kontener — flex dwukolumnowy */
+#contact-form {
+    display: flex;
+    background: #434343;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* LEWA — dane kontaktowe */
+.left-side {
+    background: #1c1c1c;
+    border-radius: 8px;
+    
+    padding: 30px 20px;
+    flex: 1;
+}
+
+/* Grid 2-kolumnowy: ikona | tekst */
+div.contact-info {
+    display: grid;
+    grid-template-columns: 74px 1fr;
+    gap: 20px 14px;
+    align-items: center;
+}
+
+/* Ikony — okrągły kontener ze złotym obramowaniem */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.icon img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    mix-blend-mode: lighten;
+}
+
+.icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Tytuł nad informacją */
+.contact-title {
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #c9a96e;
+    text-transform: uppercase;
+    margin: 0 0 4px 0;
+}
+
+/* Tekst z informacją (email, nazwa konta) */
+.contact-detail {
+    font-size: 0.85rem;
+    color: #aaa;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* PRAWA — formularz */
+#right-side {
+    background: #1c1c1c;
+    border-radius: 8px;
+    
+    padding: 30px 20px;
+    flex: 2;
+}
+
+#right-side h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 0 0 20px 0;
+    letter-spacing: 0.05em;
+}
+
+/* Tabela formularza */
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form table td {
+    padding: 10px 8px;
+    vertical-align: top;
+}
+
+/* Labelki */
+form table td:first-child {
+    width: 160px;
+    color: #aaa;
+    font-size: 0.85rem;
+    padding-top: 14px;
+}
+
+/* Pola input i textarea */
+form table input,
+form table textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+form table input:focus,
+form table textarea:focus {
+    border-bottom-color: #c9a96e;
+}
+
+form table input::placeholder,
+form table textarea::placeholder {
+    color: #555;
+}
+
+form table textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Lista wyboru */
+form table select {
+    width: 100%;
+    background: #1c1c1c;
+    border: none;
+    border-bottom: 1px solid #444;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+form table select:focus {
+    border-bottom-color: #c9a96e;
+}
+
+form table select option {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+/* Przycisk */
+form table button {
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid #c9a96e;
+    color: #c9a96e;
+    padding: 10px 30px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
+}
+
+form table button:hover {
+    background: #c9a96e;
+    color: #111;
+}

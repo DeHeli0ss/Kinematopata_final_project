@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kinematopata</title>
     <link rel ="stylesheet" href="../CSS/style.css" type ="text/css"/>
+    <link rel ="stylesheet" href="../CSS/contactform.css" type ="text/css"/>
+
 </head>
 <body>
     <header>
@@ -13,7 +15,7 @@
     <nav> 
           <ul id ="nav">
             <li><a href = "index.html">Strona Glowna</a></li>
-            <li><a href = "filmy.html">Filmy</a></li>
+            <li><a href = "filims.html">Filmy</a></li>
             <li><a href = "seriale.html">Seriale</a></li>
             <li><a href ="ksiazki.html">Ksiazki</a></li>
             <li><a href ="#">Kontakt</a>
@@ -31,23 +33,64 @@
                 <span class="icon "><img src="../images/email-icon.png" alt="Ikona email"></span>
                 <div>
                     <p class="contact-title">W razie pytań pisz lub użyj formularza:</p>
-                    <p class="contact-info">deheli0smang@gmail.com</p>
+                    <p class="contact-detail">deheli0smang@gmail.com</p>
                 </div>
                 <span class="icon "><a href="https://www.youtube.com" target="_blank"><img src="../images/Youtube.png" alt="Ikona YouTube"></a></span>
                 <div>
-                    <p class="contact-title">W razie pytań pisz lub użyj formularza:</p>
-                    <p class="contact-info">deheli0smang@gmail.com</p>
+                    <p class="contact-title">Youtube</p>
+                    <p class="contact-detail">Kinematopata</p>
                 </div>
+                <span class="icon "><a href="https://www.instagram.com" target="_blank"><img src="../images/Instagram.png" alt="Ikona Instagram"></a></span>
                 <div>
-                    <p class="contact-title">W razie pytań pisz lub użyj formularza:</p>
-                    <p class="contact-info">deheli0smang@gmail.com</p>
+                    <p class="contact-title">Instagram</p>
+                    <p class="contact-detail">Kinematopata</p>
+                </div>
+                <span class="icon "><a href="https://www.facebook.com" target="_blank"><img src="../images/Facebook.png" alt="Ikona Facebook"></a></span>
+                <div>
+                    <p class="contact-title">Facebook</p>
+                    <p class="contact-detail">Kinematopaci</p>
                 </div>
             </div>
         </div> 
+        
       
         <div id="right-side">
                 <h3>Formularz kontaktowy</h3>
-        </div>    
-    </div>      
+                <form action="https://formspree.io/f/TWÓJ_UNIKALNY_KOD" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="nick">Nazwa użytkownika</label></td>
+                        <td><input type="text" id="nick" name="nick" placeholder="Podaj nazwę użytkownika" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Adres e-mail</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Podaj adres email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="subject">Temat</label></td>
+                        <td>
+                            <select id="subject" name="subject" required>
+                                <option value="">-- Wybierz temat --</option>
+                                <option value="Pytania">Pytania/Sugestie dotyczące recenzji</option>
+                                <option value="Opinia">Opinia użytkownika</option>
+                                <option value="Sugestie">Sugestie dotyczące poprawy strony</option>
+                                <option value="Propozycja">Propozycja książki/filmu/serialu do obejrzenia</option>
+                                <option value="Współpraca">Współpraca</option>
+                                <option value="Inne">Inne</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Wiadomość</label></td>
+                        <td><textarea id="message" name="message" placeholder="Napisz wiadomość..." required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="submit">Wyślij</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
 </body>
 </html>
