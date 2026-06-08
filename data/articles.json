@@ -52,26 +52,438 @@
         {
             "id": 3,
             "kategoria": "ksiazka",
-            "tytul": "Solaris — pytanie bez odpowiedzi",
-            "zajawka": "Lem napisał powieść której nie da się wyczerpać.",
-            "info": "1961 · Stanisław Lem · 272 str.",
-            "ocena": "10/10",
+            "tytul": "Bohaterowie w lustrzanym odbiciu - Stalowe Serce",
+            "zajawka": "Wyobraź sobie świat, w którym superbohaterowie nie noszą peleryn, by nas ratować... ale po to, by bezkarnie nas niszczyć. Witamy w Newcago – mieście rządzonym żelazną ręką przez bezwzględnego Stalowego Serca.",
+            "info": "2022 · Brandon Sanderson",
+            "ocena": "8.3/10",
             "data": "2026-05-05",
             "url": "recenzje.html?id=3",
             "tresc": {
-                "wprowadzenie": "Wprowadzenie...",
+                "": "Cześć, Kinematopaci! Nie pamiętam, w jakich okolicznościach kupiłem bądź dostałem tę książkę. Wiem natomiast, że moje początki z nią były ciężkie, być może byłem zbyt mały i głupi, by zrozumieć sens tej powieści. Jest też inne wytłumaczenie, dla mnie bardziej wiarygodne po prostu nie byłem jeszcze takim fanem czytania, jakim jestem obecnie.",
                 "rozdzialy": [
-                    { "naglowek": "Fabuła", "tekst": "Treść..." },
-                    { "naglowek": "Podsumowanie", "tekst": "Treść..." }
-                ]
+                    {"naglowek":"","tekst":"Fabuła Stalowego Serca rozgrywa się w Newcago (dawnym Chicago). Jest to miejsce wpływów Epika (czyli człowieka posiadającego moce) imieniem Stalowe Serce. Jednak jeśli myślicie, że to kolejna opowieść o superbohaterach, to grubo się mylicie. Epicy wcale nie przyszli ratować ludzkości to potwory, które traktują ludzi jak zabawki. Nasz główny bohater, David, to osoba, która na własnej skórze doświadczyła, kim w rzeczywistości są Epicy. To właśnie z ręki Stalowego Serca zginął jego ojciec, który do końca wierzył w dobrych herosów i w to, że przybędą im na pomoc. Jak mówi David ' ojciec był głupcem myśląc, że ktoś przejdzie nam z pomocą'. Choć nie zgadzał się z ojcem w tym temacie to jednak bardzo go kochał i ma on teraz tylko jeden cel – zemścić się na Epikach za krzywdy wyrządzone jego rodzinie."},
+                    { "naglowek": "Walka czy posłuszeństwo?", "tekst": "Jak w każdej tyranii, zawsze pojawiają się głosy sprzeciwu. Tylko co zrobić, gdy dyktatorzy mają supermoce ? Jesteś dla nich nic niewartym szarakiem, więc naturalnie siedzisz cicho i liczysz, że jakoś to będzie. Tak myśli większość ludzi, ale nie wszyscy. Mściciele to grupa, która zawodowo zabija Epików i pokazuje, że każdego da się zgładzić. To wymaga jednak ciężkiej pracy i ogromnej ostrożności. W tej grze ciężko wygrać, ale wcale nie trzeba się starać, by zostać zabitym. Niewiele osób podejmuje się walki, ale ci odważni robią wszystko, by polepszyć stan życia ludzkości. Nasz główny bohater od lat bada słabości Epików i desperacko chce dołączyć do Mścicieli. Początkowo jego kandydatura zostaje odrzucona, jednak udaje mu się namówić ich dowódcę, by przyjął go przynajmniej na okres próbny." },
+                    {"naglowek": " ", "tekst": "Ocena: 8.3/10" },
+                    {"naglowek": "Podsumowanie", "tekst":
+                    "Tego, ile emocji przyniosła mi ta książka, nie będę w stanie opisać słowami. Zaczynając od ekscytacji, przez konsternację, aż po złość. Stalowe Serce to nie jest książka na pięć minut, którą odrzucimy w kąt – choć początkowo może się tak wydawać. Wczytując się w każdą kolejną stronę, przenosimy się do świata, który może nas wciągnąć jak pies klapki Twojego starego. Pamiętajcie, że to tylko moja opinia i chętnie posłucham Waszych. Natomiast gdy już przeczytacie bądź chcecie poznać, co dokładnie myślę o tej książce i poznać fabułę nieco głębiej, zapraszam do mojego materiału na YT – link macie na dole!"}
+                 ]
             },
             "informacje": {
-                "Tytuł": "Solaris",
-                "Autor": "Stanisław Lem",
-                "Rok": "1961",
-                "Stron": "272",
-                "Gatunek": "Science fiction"
+                "Tytuł": "Stalowe Serce",
+                "Autor": "Brandon Sanderson",
+                "Rok": "2022",
+                "Gatunek": "Science fiction, Young adults"
             }
+        },
+        {
+  "id": 4,
+    "kategoria": "serial",
+    "tytul": "Detektyw z uśmiechem i demonem w szafie - Mentalista",
+    "zajawka": "Wyobraź sobie śledczego, który nie potrzebuje testów DNA ani odcisków palców, by przejrzeć cię na wylot. Wystarczy mu jedno spojrzenie, mrugnięcie okiem lub sposób, w jaki poprawiasz kołnierzyk. Witamy w świecie Patricka Jane'a – człowieka, który poluje na potwora, samemu balansując na granicy szaleństwa.",
+    "info": "2008-2015 · Bruno Heller",
+    "ocena": "8.7/10",
+    "data": "2026-06-04",
+    "url": "recenzje.html?id=4",
+    "tresc": {
+        "": "Cześć, Kinematopaci! Nie pamiętam dokładnie, w jakich okolicznościach odpaliłem pierwszy odcinek tego serialu – prawdopodobnie leciał gdzieś w tle w telewizji, a ja byłem zbyt zajęty, by zwrócić na niego większą uwagę. Moje początki z nim były dość leniwe, bo myślałem, że to kolejny zwykły procedural, jakich wiele. Jakże się myliłem! Dopiero gdy wsiąkłem w główny wątek, zrozumiałem, że to absolutny majstersztyk, a ja po prostu musiałem dorosnąć do docenienia tak genialnie napisanej postaci.",
+        "rozdzialy": [
+            {
+                "naglowek": "",
+                "tekst": "Fabuła Mentalisty skupia się wokół Patricka Jane'a, który jako konsultant pomaga Kalifornijskiemu Biuru Śledczemu (CBI) w rozwiązywaniu najtrudniejszych zagadek kryminalnych. Jeśli jednak myślicie, że to opowieść o facecie z nadprzyrodzonymi mocami, to grubo się mylicie. Jane to genialny obserwator, były iluzjonista i naciągacz, który kiedyś udawał medium. Zapłacił za to jednak najwyższą cenę – seryjny morderca, Czerwony John, obrażony jego drwinami w telewizji, brutalnie zamordował jego żonę i córeczkę. Od tamtej pory Patrick ma tylko jeden cel: dorwać potwora i własnoręcznie wymierzyć mu sprawiedliwość, ignorując przy tym wszelkie procedury."
+            },
+            {
+                "naglowek": "Zasady są dla profesjonalistów, on ma swój plan",
+                "tekst": "Jak w każdym zespole policyjnym, podwładni muszą słuchać przełożonych. Tylko co zrobić, gdy twój główny konsultant ma głęboko w poważaniu regulaminy, bawi się psychiką podejrzanych i częściej zastawia na nich pułapki, niż zbiera dowody? Agentka Teresa Lisbon – jego bezpośrednia szefowa – wiecznie łapie się za głowę i liczy, że tym razem ich nie wyrzucą. Patrick potrafi bezczelnie wejść do domu podejrzanego, zaparzyć sobie herbatę w jego kuchni i w pięć minut zrujnować jego alibi. Ta gra z przestępcami bywa niezwykle niebezpieczna, ale Jane ryzykuje wszystkim, bo nie ma już nic do stracenia. Desperacko dąży do konfrontacji z Czerwonym Johnem, który zdaje się być zawsze o krok przed nim."
+            },
+            {
+                "naglowek": " ",
+                "tekst": "Ocena: 8.7/10"
+            },
+            {
+                "naglowek": "Podsumowanie",
+                "tekst": "Tego, ile emocji i czystej frajdy przyniósł mi ten serial przez wszystkie 7 sezonów, nie będę w stanie opisać słowami. Zaczynając od śmiechu z genialnych żartów Jane'a, przez totalną konsternację przy kolejnych śladach Czerwonego Johna, aż po ciarki na plecach. Mentalista to nie jest serial na pięć minut, który porzucicie po dwóch odcinkach. Wciągając się w tę historię, przenosimy się do świata psychologicznych gier, który potrafi zaabsorbować mocniej niż pies klapki Twojego starego. Pamiętajcie, że to tylko moja opinia i chętnie posłucham Waszych. Natomiast gdy już obejrzycie bądź chcecie dowiedzieć się, co dokładnie myślę o finale tej historii, zapraszam do mojego materiału na YT – link macie na dole!"
+            }
+        ]
+    },
+    "informacje": {
+        "Tytuł": "Mentalista (The Mentalist)",
+        "Twórca": "Bruno Heller",
+        "Lata emisji": "2008-2015",
+        "Gatunek": "Kryminał, Dramat, Psychologiczny"
+    }
+},
+    {
+        "id": 5,
+        "kategoria": "film",
+        "tytul": "Ogień, popiół i niebieskie ludziki - Avatar 3",
+        "zajawka": "Myśleliście, że Pandora to tylko rajskie lasy i głębiny oceanu? Czas na zmianę klimatu. Witamy w świecie Ludu Popiołu – agresywnego plemienia Na'vi, które pokaże nam, że nie każdy tubylec zasługuje na miano obrońcy uciśnionych.",
+        "info": "2025 · James Cameron",
+        "ocena": "8.0/10",
+        "data": "2026-06-08",
+        "url": "recenzje.html?id=5",
+        "tresc": {
+            "": "Cześć, Kinematopaci! Nie pamiętam, w jakich okolicznościach kupiłem bilet na premierę trzeciego Avatara – prawdopodobnie dałem się ponieść fali nostalgii po dwójce. Wiem natomiast, że moje początki w kinowym fotelu były ciężkie, bo bałem się, że Cameron znowu zaserwuje mi trzy godziny tej samej opowieści o złych ludziach i dobrych kosmitach. Na szczęście tym razem reżyser postanowił trochę zamieszać w garze.",
+            "rozdzialy": [
+                {
+                    "naglowek": "",
+                    "tekst": "Fabuła trzeciej części (noszącej podtytuł 'Ogień i Popiół') przenosi nas w zupełnie nowe rejony Pandory. Poznajemy tu Lud Popiołu, na czele którego stoi bezwzględna Varang. Jeśli jednak myśleliście, że Na'vi to wyłącznie pokojowe istoty żyjące w harmonii z naturą, to grubo się mylicie. To potwory ogarnięte żądzą władzy i nienawiścią. Nasz stary znajomy, Jake Sully, to osoba, która na własnej skórze doświadczy, że zagrożenie nie zawsze przybywa z gwiazd. Choć wcześniej wierzył w jedność swojego nowego ludu, teraz musi zrewidować swoje poglądy."
+                },
+                {
+                    "naglowek": "Walka na dwa fronty",
+                    "tekst": "Jak w każdym dobrym konflikcie, granice między dobrem a złem zaczynają się zacierać. Co zrobić, gdy twoi pobratymcy okazują się równie okrutni jak najeźdźcy z Ziemi? Jesteś w tej walce tylko kolejnym pionkiem, więc naturalnie kombinujesz, jak przeżyć i ochronić rodzinę. Mimo to, Jake i Neytiri podejmują rękawicę. James Cameron znowu serwuje nam wizualny majstersztyk, ale to warstwa psychologiczna robi tu największą robotę. Nowe plemię nie patyczkuje się w tańcu i pokazuje, że na Pandorze nikt nie może czuć się bezpieczny."
+                },
+                {
+                    "naglowek": " ",
+                    "tekst": "Ocena: 8.0/10"
+                },
+                {
+                    "naglowek": "Podsumowanie",
+                    "tekst": "Tego, ile emocji przyniosły mi te widowiskowe efekty i zwroty akcji, nie będę w stanie opisać słowami. Trzeci Avatar to nie jest film na pięć minut, o którym zapomnicie po wyjściu z kina – choć początek może trochę nużyć. Wpatrując się w ekran, przenosimy się do świata, który wizualnie wciąga jak pies klapki Twojego starego. Pamiętajcie, że to tylko moja opinia i chętnie posłucham Waszych na sekcji komentarzy. A po głębszą analizę zapraszam na mój YT – link na dole!"
+                }
+            ]
+        },
+        "informacje": {
+            "Tytuł": "Avatar: Ogień i Popiół",
+            "Reżyser": "James Cameron",
+            "Rok": "2025",
+            "Gatunek": "Sci-Fi, Przygodowy"
         }
+    },
+    {
+        "id": 14,
+        "kategoria": "film",
+        "tytul": "Drapieżniki kontra kopytne – Zwierzogród 2",
+        "zajawka": "Judy Chmiel i Nick Bajer wracają na ulice najsłynniejszej zwierzęcej metropolii. Tym razem sprawa jest jednak znacznie poważniejsza, bo do miasta trafiają gady, które wywrócą dotychczasowy porządek do góry nogami.",
+        "info": "2025 · Jared Bush, Byron Howard",
+        "ocena": "8.5/10",
+        "data": "2026-06-08",
+        "url": "recenzje.html?id=6",
+        "tresc": {
+            "": "Cześć, Kinematopaci! Nie pamiętam, kiedy ostatnio tak bardzo jarałem się na animację, ale na drugą część Zwierzogrodu czekałem jak dziecko. Moje początki z seansem były pełne obaw – czy Disney nie zepsuje tego, co było tak idealne w jedynce? Być może byłem zbyt sceptyczny. Okazało się, że twórcy zrobili krok naprzód i przygotowali coś dla starszych i młodszych fanów kina.",
+            "rozdzialy": [
+                {
+                    "naglowek": "",
+                    "tekst": "Fabuła Zwierzogrodu 2 znowu rzuca nas w wir policyjnego śledztwa. Judy i Nick są już pełnoprawnymi partnerami w ZPD, ale ich nowa sprawa dotyczy tajemniczego węża imieniem Gary, który pojawia się w mieście i zaczyna siać ferment. Jeśli myślicie, że to kolejna urocza bajeczka o zwierzątkach, to grubo się mylicie. Gary i jego gadzia ferajna to sprytni gracze, którzy traktują ssaki jak łatwy cel do zmanipulowania. Nasi bohaterowie będą musieli przetestować swoją lojalność i sprawdzić, czym naprawdę jest tolerancja w tak zróżnicowanym społeczeństwie."
+                },
+                {
+                    "naglowek": "Zaufanie w świecie pełnym kłów",
+                    "tekst": "Jak w każdej policyjnej robocie, najważniejsze to mieć plecy partnera. Tylko co zrobić, gdy nowe zagrożenie dzieli mieszkańców na kolejne obozy? Sprawa Gary'ego zmusza Judy i Nicka do pójścia pod prąd i zaryzykowania własnych odznak. Akcja pędzi jak szalona, a humor sytuacyjny i nawiązania do popkultury rozkładają na łopatki. Twórcy genialnie pokazują, jak łatwo zniszczyć wypracowany z trudem pokój i jak niewiele trzeba, by wbić klin między dawnych przyjaciół."
+                },
+                {
+                    "naglowek": " ",
+                    "tekst": "Ocena: 8.5/10"
+                },
+                {
+                    "naglowek": "Podsumowanie",
+                    "tekst": "Tego, ile emocji i śmiechu przyniosła mi ta animacja, nie jestem w stanie opisać słowami. Zwierzogród 2 to nie jest film na pięć minut, który puścicie dziecku i pójdziecie robić obiad. Ta historia wciąga całe rodziny jak pies klapki Twojego starego. Pamiętajcie, że to tylko moja opinia – dajcie znać w komentarzach, jak Wam się podobał powrót Nicka i Judy. Po pełną recenzję ze spoilerami wpadajcie na mój kanał YT, link na dole!"
+                }
+            ]
+        },
+        "informacje": {
+            "Tytuł": "Zwierzogród 2 (Zootopia 2)",
+            "Reżyser": "Jared Bush, Byron Howard",
+            "Rok": "2025",
+            "Gatunek": "Animacja, Komedia, Kryminał"
+        }
+    },
+    {
+        "id": 7,
+        "kategoria": "film",
+        "tytul": "Krew, pot i Fatality - Mortal Kombat",
+        "zajawka": "Zapomnijcie o dyplomacji. Witamy na turnieju, gdzie stawką jest los całego wszechświata, a jedynym sposobem na negocjacje jest wyrwanie przeciwnikowi kręgosłupa.",
+        "info": "2021 · Simon McQuoid",
+        "ocena": "6.8/10",
+        "data": "2026-06-08",
+        "url": "recenzje.html?id=7",
+        "tresc": {
+            "": "Cześć, Kinematopaci! Nie pamiętam, w jakich okolicznościach odpaliłem ten film, ale jako psychofan starej gry wideo miałem ogromne oczekiwania. Moje początki z tym seansem były ciężkie – fabularnie momentami czułem się zbyt dorosły na tak naiwną historię. Jest też inne wytłumaczenie: po prostu oczekiwałem głębokiego kina, a dostałem czystą, niczym nieskrępowaną rozwałkę.",
+            "rozdzialy": [
+                {
+                    "naglowek": "",
+                    "tekst": "Fabuła kręci się wokół Cole'a Younga, zawodnika MMA, który nie ma pojęcia o swoim dziedzictwie, dopóki na jego drodze nie staje Sub-Zero – kriomanta wysłany przez rządcę Pozaświata, Shang Tsunga. Jeśli myślicie, że to głęboka opowieść z morałem, to grubo się mylicie. Wojownicy z Pozaświata to bezwzględne potwory, które traktują Ziemian jak mięso armatnie. Cole musi szybko odnaleźć w sobie 'arkana' – wewnętrzną moc, by wraz z ekipą Raidena stanąć do brutalnej walki o przetrwanie nas wszystkich."
+                },
+                {
+                    "naglowek": "GET OVER HERE! Czyli czysta akcja",
+                    "tekst": "Jak w każdym turnieju na śmierć i życie, nie ma tu miejsca na litość. Jesteś szarym człowiekiem, dopóki nie odkryjesz swojej magii, więc bez niej stajesz się łatwym łupem. Walki są esencją tego filmu – krew leje się wiadrami, a efekty specjalne przy kultowych ciosach robią robotę. Scorpion i Sub-Zero kradną każdą scenę, w której się pojawiają. Szkoda tylko, że sama fabuła ucierpiała kosztem choreografii walk, przez co momentami wieje nudą między starciami."
+                },
+                {
+                    "naglowek": " ",
+                    "tekst": "Ocena: 6.8/10"
+                },
+                {
+                    "naglowek": "Podsumowanie",
+                    "tekst": "Mortal Kombat to film, który przynosi skrajne emocje – od ekscytacji przy kultowych Fatality, po konsternację przy dialogach. To nie jest dzieło, które zmienili Wasze życie, ale jako odmóżdżacz na piątkowy wieczór sprawdza się idealnie i wciąga fanów bijatyk jak pies klapki Twojego starego. Pamiętajcie, że to tylko moje zdanie. Jeśli chcecie zobaczyć zestawienie najlepszych walk z tego filmu, wpadajcie na mój materiał na YT – link macie na dole!"
+                }
+            ]
+        },
+        "informacje": {
+            "Tytuł": "Mortal Kombat",
+            "Reżyser": "Simon McQuoid",
+            "Rok": "2021",
+            "Gatunek": "Akcja, Fantasy, Sztuki walki"
+        }
+    },
+    {
+        "id": 8,
+        "kategoria": "film",
+        "tytul": "Szekspir w cieniu wielkich maszyn - Król",
+        "zajawka": "Złote korony, błoto po kolana i młody chłopak wrzucony w brutalny świat polityki oraz wojny. Witamy w XV-wiecznej Anglii, gdzie lojalność kupuje się krwią, a władza jest najcięższym z grzechów.",
+        "info": "2019 · David Michôd",
+        "ocena": "7.9/10",
+        "data": "2026-06-08",
+        "url": "recenzje.html?id=8",
+        "tresc": {
+            "": "Cześć, Kinematopaci! Nie pamiętam dokładnie, co skłoniło mnie do włączenia tego filmu na Netfliksie – pewnie głośne nazwisko Timothée Chalameta. Wiem jednak, że moje początki z nim były dość trudne. Film rozwija się powoli, a ja na początku byłem zbyt niecierpliwy, by docenić ten ciężki, gęsty klimat. Na szczęście dałem mu szansę, bo to kawał porządnego kina historycznego.",
+            "rozdzialy": [
+                {
+                    "naglowek": "",
+                    "tekst": "Fabuła Króla opowiada o księciu Halu, krnąbrnym następcy tronu, który po śmierci swojego despotycznego ojca zostaje koronowany jako Henryk V. Jeśli myślicie, że to kolejna ubarwiona opowieść o rycerzach na białych koniach, to grubo się mylicie. Polityka tamtych czasów to błoto, zdrady i potwory w ludzkiej skórze, gotowe na wszystko dla kawałka ziemi. Hal, który wcześniej odcinał się od dworskiego życia, musi nagle stawić czoła francuskiemu zagrożeniu oraz własnym, fałszywym doradcom, którzy manipulują nim na każdym kroku."
+                },
+                {
+                    "naglowek": "Ciężar korony i bitewny zgiełk",
+                    "tekst": "Jak w każdej monarchii, młody władca musi natychmiast wzbudzić respekt, inaczej zginie z rąk własnych poddanych. Hal próbuje rządzić inaczej niż ojciec, stawiając na pokój, ale brutalna rzeczywistość szybko weryfikuje jego idealizm. Bitwa pod Azincourt, pokazana w filmie, to absolutne mistrzostwo – zapomnijcie o pięknych pojedynkach, tu dostajemy brudną, chaotyczną rzeź w błocie. Chalamet w roli młodego króla oraz Robert Pattinson jako przerysowany Delfin Francji tworzą genialny kontrast."
+                },
+                {
+                    "naglowek": " ",
+                    "tekst": "Ocena: 7.9/10"
+                },
+                {
+                    "naglowek": "Podsumowanie",
+                    "tekst": "Król przyniósł mi masę satysfakcji – od zachwytu nad surowymi zdjęciami, aż po złość na bezwzględność ówczesnego świata. To nie jest propozycja na luźny seans do popcornu, ale ten mroczny, historyczny klimat potrafi wciągnąć człowieka jak pies klapki Twojego starego. Oczywiście to tylko moja opinia, sekcja komentarzy należy do Was! A jeśli chcecie dowiedzieć się więcej o tym, jak film ma się do prawdziwej historii Anglii, zapraszam na mój YT – link znajdziecie poniżej!"
+                }
+            ]
+        },
+        "informacje": {
+            "Tytuł": "Król (The King)",
+            "Reżyser": "David Michôd",
+            "Rok": "2019",
+            "Gatunek": "Dramat, Historyczny"
+        }
+    },
+    
+    {
+        "id": 9,
+        "kategoria": "serial",
+        "tytul": "Geniusz bez dyplomu i korporacyjne rekiny - W garniturach",
+        "zajawka": "Wyobraź sobie, że uciekasz przed policją z walizką pełną marihuany, wbiegasz na rozmowę kwalifikacyjną do topowej kancelarii i dostajesz pracę jako prawnik... mimo że nigdy nie skończyłeś studiów. Witamy w Nowym Jorku – mieście, gdzie blef jest wart więcej niż paragrafy.",
+        "info": "2011-2019 · Aaron Korsh",
+        "ocena": "8.4/10",
+        "data": "2026-06-08",
+        "url": "recenzje.html?id=9",
+        "tresc": {
+            "": "Cześć, Kinematopaci! Nie pamiętam, w jakich okolicznościach trafiłem na ten serial – pewnie szukałem czegoś lekkiego do kolacji. Wiem natomiast, że moje początki z nim były specyficzne, bo bałem się nudnych rozpraw sądowych i gadających głów w drogich ciuchach. Jak się okazało, byłem po prostu za głupi, by przewidzieć, że dostanę jeden z najbardziej dynamicznych i wciągających seriali prawniczych w historii.",
+            "rozdzialy": [
+                {
+                    "naglowek": "",
+                    "tekst": "Fabuła W garniturach (Suits) kręci się wokół Harveya Spectera, bezwzględnego 'zamykacza' spraw z Manhattanu, który zatrudnia Mike'a Rossa – chłopaka z pamięcią fotograficzną, który udaje absolwenta Harvardu. Jeśli jednak myślicie, że to kolejna nudna opowieść o czytaniu kodeksów, to grubo się mylicie. Prawnicy z Pearson Darby to prawdziwe potwory w drogich garniturach, które traktują konkurencję jak zabawki. Mike to osoba, która na własnej skórze doświadczy, jak to jest żyć w ciągłym kłamstwie, ryzykując więzieniem za każdym razem, gdy wchodzi na salę sądową."
+                },
+                {
+                    "naglowek": "Lojalność kontra sekrety",
+                    "tekst": "Jak w każdej korporacyjnej dżungli, zawsze pojawiają się tarcia i walka o władzę. Tylko co zrobić, gdy twój największy sekret może zniszczyć całą firmę? Jesteś dla nich tylko chodzącą bombą zegarową, więc naturalnie musisz non stop uważać, komu ufasz. Louis Litt – wieczny rywal Harveya – tylko czeka na potknięcie, a jego podejrzliwość rodzi genialne, pełne napięcia sytuacje. Ta gra w ukrywanie prawdy wymaga ogromnej ostrożności. W tej branży ciężko wygrać bez brudnych zagrywek, ale Mike robi wszystko, by zachować w tym wszystkim choć trochę ludzkiej moralności."
+                },
+                {
+                    "naglowek": " ",
+                    "tekst": "Ocena: 8.4/10"
+                },
+                {
+                    "naglowek": "Podsumowanie",
+                    "tekst": "Tego, ile emocji przyniosły mi te korporacyjne intrygi i genialne riposty Harveya, nie będę w stanie opisać słowami. Suits to nie jest serial na pięć minut, od którego można się łatwo oderwać. Wczytując się w kolejne sezony, przenosimy się do świata wielkich pieniędzy i drogich garniturów, który potrafi wciągnąć jak pies klapki Twojego starego. Pamiętajcie, że to tylko moja opinia i chętnie posłucham Waszych. A jeśli chcecie poznać moje zestawienie najlepszych cytatów z serialu, zapraszam do materiału na YT – link macie na dole!"
+                }
+            ]
+        },
+        "informacje": {
+            "Tytuł": "W garniturach (Suits)",
+            "Twórca": "Aaron Korsh",
+            "Lata emisji": "2011-2019",
+            "Gatunek": "Dramat, Komedia"
+        }
+    },
+    {
+        "id": 10,
+        "kategoria": "serial",
+        "tytul": "Wielki Brat widzi cię zanim popełnisz zbrodnię - Impersonalni",
+        "zajawka": "Sztuczna inteligencja, która wie o każdym przestępstwie, zanim ono w ogóle się wydarzy. Rząd ignoruje te dane, uznając je za 'nieistotne'. Dwóch facetów postanawia jednak wziąć sprawy w swoje ręce i zhakować system, by ratować zwykłych ludzi.",
+        "info": "2011-2016 · Jonathan Nolan",
+        "ocena": "8.6/10",
+        "data": "2026-06-08",
+        "url": "recenzje.html?id=10",
+        "tresc": {
+            "": "Cześć, Kinematopaci! Nie pamiętam dokładnie, kiedy zacząłem oglądać Impersonalnych (Person of Interest) – chyba leciało to kiedyś w telewizji późnym wieczorem. Moje początki z tym serialem były trudne, bo pierwsze odcinki sugerowały zwykły kryminał 'zbrodnia tygodnia'. Być może byłem zbyt niecierpliwy, by dostrzec geniusz Jonathana Nolana. Szybko jednak okazało się, że pod płaszczykiem policyjnego procedurala kryje się genialny, mroczny thriller science-fiction.",
+            "rozdzialy": [
+                {
+                    "naglowek": "",
+                    "tekst": "Fabuła skupia się na Haroldzie Finchu – genialnym miliarderze, który stworzył Maszynę analizującą masową inwigilację w celu wykrywania aktów terroru. Maszyna generuje też numery ubezpieczenia społecznego osób, które wezmą udział w 'zwykłym' morderstwie (jako ofiara lub sprawca). Finch zatrudnia Johna Reese'a, byłego agenta CIA uznanego za zmarłego. Jeśli myślicie, że to radosna historyjka o superbohaterach, to grubo się mylicie. Świat Impersonalnych to Nowy Jork pełen skorumpowanych gliniarzy z HR i bezwzględnych agentów rządowych, którzy traktują obywateli jak cyfry w systemie. Reese to maszyna do zabijania, która dzięki Finchowi odnajduje w życiu nowy cel."
+                },
+                {
+                    "naglowek": "System kontra wolna wola",
+                    "tekst": "Jak w każdej opowieści o inwigilacji, szybko pojawia się pytanie: jak daleko można się posunąć, by chronić ludzi? Maszyna daje tylko numer – nie wiesz, czy dany człowiek zginie, czy sam pociągnie za spust. Działanie w cieniu wymaga ogromnej ostrożności, bo depczą ci po piętach zarówno agencje federalne, jak i nowojorska mafia. Gdy w późniejszych sezonach do gry wkracza druga, bezwzględna sztuczna inteligencja (Samarytanin), serial zmienia się w totalną wojnę bogów, gdzie ludzie są tylko mięsem armatnim. Niewiele osób podejmuje walkę o wolność, ale Finch i Reese robią wszystko, by ocalić ludzkość przed cyfrową niewolą."
+                },
+                {
+                    "naglowek": " ",
+                    "tekst": "Ocena: 8.6/10"
+                },
+                {
+                    "naglowek": "Podsumowanie",
+                    "tekst": "Tego, jak ten serial przewidział współczesne problemy z AI i inwigilacją, oraz ile emocji mi dostarczył, nie opiszę słowami. Zaczynając od prostych spraw, przez konsternację, aż po totalny smutek i złość w finale. Impersonalni to dzieło, które zostaje w głowie na lata i wciąga klimatami cyberpunku jak pies klapki Twojego starego. Oczywiście to tylko moja opinia. Jeśli chcecie pogadać o tym, jak blisko jesteśmy świata z tego serialu, zapraszam na mój YT – link na dole!"
+                }
+            ]
+        },
+        "informacje": {
+            "Tytuł": "Impersonalni (Person of Interest)",
+            "Twórca": "Jonathan Nolan",
+            "Lata emisji": "2011-2016",
+            "Gatunek": "Sci-Fi, Thriller, Akcja"
+        }
+    },
+    {
+        "id": 11,
+        "kategoria": "serial",
+        "tytul": "Chłopak z Kansas i zielony kamień - Tajemnice Smallville",
+        "zajawka": "Zanim założył niebieski strój i czerwoną pelerynę, był zwykłym nastolatkiem z Kansas, który zmagał się z trądzikiem, miłosnymi zawodami i... laserami strzelającymi z oczu. Witamy w Smallville – miasteczku, gdzie deszcz meteorytów zmienił wszystko.",
+        "info": "2001-2011 · Alfred Gough, Miles Millar",
+        "ocena": "7.8/10",
+        "data": "2026-06-08",
+        "url": "recenzje.html?id=11",
+        "tresc": {
+            "": "Cześć, Kinematopaci! Nie pamiętam dokładnie, kiedy po raz pierwszy zobaczyłem Clarka Kenta biegającego po polach kukurydzy – to były czasy, kiedy na odcinki czekało się cały tydzień przed telewizorem. Moje początki z tym serialem były specyficzne, bo momentami potrafił irytować nastoletnią dramą. Być może byłem wtedy zbyt młody, by docenić, jak genialnie twórcy budowali fundamenty pod mitologię Supermana. Dziś mam do tego tytułu gigantyczny sentyment.",
+            "rozdzialy": [
+                {
+                    "naglowek": "",
+                    "tekst": "Fabuła Tajemnic Smallville skupia się na młodym Clarku Kencie, który ukrywa przed światem swoje kosmiczne pochodzenie i nadludzkie zdolności. Jeśli jednak myślicie, że to kolejna współczesna, mroczna adaptacja komiksów, to grubo się mylicie. Ludzie zmienieni przez odłamki kryptonitu (tzw. 'dziwacy tygodnia') to potwory ogarnięte szaleństwem, które terroryzują okolicę. Clark na własnej skórze doświadcza, jak ciężko jest być innym. Co najciekawsze, jego najlepszym przyjacielem jest tutaj młody Lex Luthor. Oglądanie, jak ich braterska relacja powoli rozpada się i zmienia w legendarną nienawiść, to najlepszy element tego serialu."
+                },
+                {
+                    "naglowek": "Ratować świat czy iść na randkę?",
+                    "tekst": "Jak w każdym życiu nastolatka, najtrudniej połączyć obowiązki ze szkołą i miłością – zwłaszcza gdy twoją wybranką jest Lana Lang, a ty nie możesz jej powiedzieć prawdy, bo przy okazji zniszczyłbyś jej życie. Clark desperacko chce być zwykłym szarakiem, ale przeznaczenie ciągle puka do jego drzwi (często pod postacią głosu jego biologicznego ojca, Jor-Ela). Serial ciągnął się przez 10 sezonów i choć po drodze zaliczył kilka gorszych, wręcz absurdalnych momentów w Metropolis, to finałowe sezony z Lois Lane i budowaniem Ligi Sprawiedliwości nadrabiają to z nawiązką."
+                },
+                {
+                    "naglowek": " ",
+                    "tekst": "Ocena: 7.8/10"
+                },
+                {
+                    "naglowek": "Podsumowanie",
+                    "tekst": "Tajemnice Smallville przyniosły mi masę nostalgii i czystej rozrywki. Choć serial bywa momentami przestarzały, to tamtejszy klimat wczesnych lat dwutysięcznych i kultowe 'Save Me' w intro wciągają człowieka jak pies klapki Twojego starego. Pamiętajcie, że to moja subiektywna ocena i chętnie poznam Wasze wspomnienia z tym tytułem. Jeśli chcecie zobaczyć moją analizę ewolucji relacji Clarka i Lexa, wpadajcie na mój kanał YT – link pod spodem!"
+                }
+            ]
+        },
+        "informacje": {
+            "Tytuł": "Tajemnice Smallville (Smallville)",
+            "Twórcy": "Alfred Gough, Miles Millar",
+            "Lata emisji": "2001-2011",
+            "Gatunek": "Sci-Fi, Dramat, Przygodowy"
+        }
+    },
+    {
+    "id": 12,
+    "kategoria": "ksiazka",
+    "tytul": "Czy płonące ambicje mogą zabić  - Pożar (Brandon Sanderson)",
+    "zajawka": "Dziś znowu zahaczamy o serię Brandona Sandersona pod tytułem „Mściciele”, lecz tym razem omówimy drugi tom, zatytułowany „Pożar”.",
+    "info": "Brandon Sanderson",
+    "ocena": "6.3/10",
+    "data": "2026-06-08",
+    "url": "recenzje.html?id=12",
+    "tresc": {
+        "": "Cześć, Kinematopaci! Dziś znowu zahaczamy o serię Brandona Sandersona pod tytułem „Mściciele”, lecz tym razem omówimy drugi tom, zatytułowany „Pożar”. W pierwszych rozdziałach widzimy nowe uroki życia w Newcago: nowa burmistrz, demokracja, no i oczywiście świeże wyzwania stojące przed Davidem i spółką – czyli kolejni Epicy chcący przejąć miasto. Szybko jednak dowiadujemy się, że nowi przybysze mają zupełnie inny cel. Przez to nasi bohaterowie – Tia, Profesor oraz David – muszą ruszyć do nowego miasta: Babilaru, czyli dawnego Manhattanu. W książce błyskawicznie zawiązuje się również drugi wątek, czyli poszukiwanie tytułowego Pożaru – Megan, miłości naszego głównego bohatera.",
+        "rozdzialy": [
+            {
+                "naglowek": "Nowe miejsce, nowi wrogowie",
+                "tekst": "Nowe wyzwanie przenosi nas w byłe okolice Nowego Yorku, zwanego teraz Babilarem. Miasto jest częściowo zatopione, gdyż władzę nad nim sprawuje Regalia – Epiczka władająca wodą. Regalia potrafi korzystać z wody niczym wiedźma z kryształowej kuli: widzi to, co chce, i pojawia się, gdzie tylko zapragnie. Z tego powodu bohaterowie muszą bardzo uważać na to, co robią i mówią. Na miejscu poznają też inny odłam Mścicieli, którzy niedawno w starciu z Epikiem stracili kolegę. W Babilarze panuje wręcz luzacki styl życia; można rzec, że atmosfera opiera się na zasadzie „co ma być, to będzie” oraz „kto umrze, ten umrze – trudno”. To mocno utrudnia życie Mścicielom, którzy są tam traktowani jak wrogowie zaburzający spokojną codzienność mieszkańców."
+            },
+            {
+                "naglowek": "Duża ambicja a możliwości",
+                "tekst": "Od czasu walki ze Stalowym Sercem David ani trochę się nie zmienił. Dalej jest tym samym człowiekiem, którego ambicje czasem drastycznie przekraczają ludzkie możliwości. Chce pokonać Regalię, musi zatrzymać potężnego Epika przed zniszczeniem miasta, a na dodatek pragnie ocalić Megan. Problemem jest fakt, iż nie wie, gdzie znajduje się Regalia, a żaden plan jej eliminacji nie jest możliwy do wykonania bez poznania miejsca jej pobytu. Mściciele bez tego nie mają szans w walce z tak potężną przeciwniczką, a plan odzyskania Megan wydaje się nie mieć racji bytu. Tu jednak z pomocą przychodzi pewna teoria, która może uratować plany Davida – lecz wciąż nie wiadomo, czy jest ona prawdziwa."
+            },
+            {
+                "naglowek": " ",
+                "tekst": "Ocena: 6.3/10"
+            },
+            {
+                "naglowek": "Podsumowanie",
+                "tekst": "Brandon Sanderson w drugim tomie serii przenosi nas do zupełnie innego świata. Trafiamy do Babilaru, który nie przejmuje się władzą Epików i wręcz chce, by ona trwała. David, który od początku był nastawiony wyłącznie na zemstę i eliminację wrogów, w obliczu nowych faktów zaczyna być moralnie rozdarty. Książka, choć dobrze napisana, ma jednak wiele momentów, które można określić jako „dziecinne”. Wiadomo – cała opowieść opiera się na super mocach, więc dojrzałą literaturą piękną tego nie nazwiemy. Jednak miejscami tracimy z oczu to, co najbardziej podobało mi się w pierwszej części: realizm i logiczne wytłumaczenia realiów świata. Czemu taki spadek w porównaniu do pierwszej części ? Wszystko przez brak tej krztyny realizmu. Choć to książka o super mocach i w ogóle to pierwsza część posiadała ten częściowy realizm o który w tej części było bardzo ciężko. Czy mimo wszystko warto tę książkę przeczytać? Jak najbardziej! Dalej jest to porządna literatura młodzieżowa, nad którą warto spędzić kilka wieczorów. Wiadomo również, że to tylko moja opinia, a nie Wasza, więc warto przekonać się samemu. A po przeczytaniu zapraszam do odcinka na YouTube, który już niedługo powinien wlecieć na kanał!"
+            }
+        ]
+    },
+    "informacje": {
+        "Tytuł": "Pożar",
+        "Autor": "Brandon Sanderson",
+        "Cykl": "Mściciele (Tom 2)",
+        "Gatunek": "Literatura młodzieżowa, Fantasy"
+    }
+},
+{
+    "id": 13,
+    "kategoria": "ksiazka",
+    "tytul": "Zagadka czerwonej komety rozwiązana? – Calamity (Brandon Sanderson)",
+    "zajawka": "Dzisiaj bierzemy na tapet ostatnią już część z serii Mściciele Brandona Sandersona o nazwie Calamity.",
+    "info": "Brandon Sanderson",
+    "ocena": "6.7/10",
+    "data": "2026-06-08",
+    "url": "recenzje.html?id=13",
+    "tresc": {
+        "": "Cześć, Kinematopaci! Dzisiaj bierzemy na tapet ostatnią już część z serii Mściciele Brandona Sandersona o nazwie Calamity. Ale przed tym jeszcze krótkie podsumowanie. W drugim tomie rozstaliśmy się z Davidem po walce odrodzonej Megan z Profesorem. Ten ostatni całkowicie zatracił się, korzystając ze swoich mocy, zamordował Val oraz Exela i przybrał imię Limelight. Profesor ucieka, podobnie jak Mściciele, którzy muszą chronić się przed swoim byłym dowódcą i schronić w miejscu, w którym ich nie znajdzie. Po Tii nie ma ani śladu, a inne komórki Mścicieli albo się rozwiązały, albo zostały wyrżnięte przez otumanionego Profesora. Do naszych dzielnych wojowników wracamy w samym środku akcji – podczas próby włamania do kryjówki technologicznego geniusza, Knighthawka. Ta akcja zamienia się jednak w sojusz, który umożliwia Mścicielom realną walkę z Jonathanem Phaedrusem. Co ważne, celem tej walki wcale nie jest zabicie żądnego krwi Profesora, lecz próba jego uratowania i udowodnienia słuszności teorii Davida, iż Epików da się odkupić.",
+        "rozdzialy": [
+            {
+                "naglowek": "Nowe pole walki. Witamy w Ildithii",
+                "tekst": "Sanderson znowu nie każe nam stać w miejscu. Tym razem przenosimy się do dawnej Atlanty, a teraźniejszej Ildithii, która została zamieniona w ruchome miasto z soli. Mściciele pojawiają się tam w ślad za Profesorem, który walczy o przejęcie władzy. Początkowym celem Davida jest odnalezienie słabej strony Phaedrusa – czyli odkrycie, czego tak naprawdę się boi. W tym świecie konfrontacja z własnym lękiem to jedyna rzecz, która pozwala Epikowi na chwilę odzyskać zmysły. Nie będzie mu jednak łatwo, gdyż Profesor otoczył się potężnymi sługami. David zamierza postawić wszystko na jedną kartę i używając pełnego asortymentu – czyli gadżetów od Knighthawka oraz wsparcia swojej ukochanej Megan – spróbować odzyskać dawnego Jonathana."
+            },
+            {
+                "naglowek": "Nowa, nieoczywista twarz w Mścicielach",
+                "tekst": "W trakcie rewolucji Limelighta w Ildithii do Mścicieli przychodzi jeden, a właściwie jedyny poszukiwany przez niego Epik o imieniu Zawłaszczacz. Nazwa pochodzi oczywiście od jego mocy, którą jest odbieranie innym Epikom ich zdolności i przywłaszczanie ich sobie. Każe on „nędznym” ludziom być sobie posłusznymi, jednak zarówno David, jak i reszta załogi nie zamierzają kłaniać się w pas Epikowi w opałach. Na chwilę ogłaszają rozejm: Mściciele przymkną oko na obecność Zawłaszczacza w ich bazie, w zamian za co on ich nie zabije. Ryzykowny układ, patrząc na to, że potężny Epik mógłby ich sprzątnąć w ułamku sekundy, lecz bohaterowie nie mają większego wyboru."
+            },
+            {
+                "naglowek": " ",
+                "tekst": "Ocena: 6.7/10"
+            },
+            {
+                "naglowek": "Podsumowanie",
+                "tekst": "Brandon Sanderson w ostatnim tomie znowu zaskakuje nas nową scenerią in postaci ruchomego miasta Ildithii. Miasto z soli, w którym budynki zwyczajnie się sypią, jest areną walki o byłego dowódcę Mścicieli. Liczba zwrotów akcji w tej części oraz niesamowitych walk i zdarzeń przekracza wszystko, co widzieliśmy do tej pory. Jestem wręcz w stanie stwierdzić, że tylu emocji i adrenaliny nie doświadczymy nawet w pierwszej części, która – mogę to śmiało powiedzieć – jest moją ulubioną. Początkowo byłem zdania, że Sanderson znów powrócił do swojego najlepszego stylu z pierwszego tomu serii. Mnóstwo akcji przerwanej planowaniem następnego posunięcia, niespodziewane zwroty akcji przeplatane bardziej spokojnymi, ułożonymi fragmentami (takie odpoczynki opisujące świat oraz spostrzeżenia bohaterów), aż po pewne wydarzenie – bardzo ważne dla fabuły, lecz dla mnie druzgoczące. Wszystko to prowadziło do finału... i tylko po to, bym tak bardzo zawiódł się zakończeniem tej serii, co wyraźnie przeniosło się na moją finalną ocenę. Wiem, że przed chwilą wychwaliłem ostatnią część nawet ponad pierwszą. Mówiłem, ile emocji mi przyniosła i jak niesamowita była, tylko po to, żeby teraz wystawić taką ocenę. Czemu? Dla mnie jako czytelnika niezwykle ważne jest zakończenie serii. To właśnie ono zostawia nas z uczuciem: „Ależ to był świetnie spędzony czas”. Ta seria, choć rewelacyjna, moim zdaniem nie dostała odpowiedniego finału. Jest on zbyt wyimaginowany, wręcz mógłbym rzec, że autora poniosła fantazja, która zupełnie nie zgrała się z dotychczasowym, twardym stylem serii. To bardzo krytyczne słowa z mojej strony, lecz końcówka zostawiła mnie z tradycyjnym pytaniem na ustach: „Kto to panu tak sp...?”. Cała książka to czysty majstersztyk, ale zakończenie odbiega od realizmu i słodzi bardziej niż Korwin herbatę. Zachęcam Was jednak do przeczytania, gdyż nie samym zakończeniem człowiek żyje, a moje wrażenia z końcówki to tylko moja prywatna opinia. Dlatego właśnie sami oceńcie, czy Wam się podobało. A po przeczytaniu, wiadomo – zachęcam do obejrzenia filmiku na YouTube oraz do zostawienia swojej opinii w komentarzu!"
+            }
+        ]
+    },
+    "informacje": {
+        "Tytuł": "Calamity",
+        "Autor": "Brandon Sanderson",
+        "Cykl": "Mściciele (Tom 3)",
+        "Gatunek": "Literatura młodzieżowa, Fantasy"
+    }
+},
+{
+    "id": 6,
+    "kategoria": "ksiazka",
+    "tytul": "Miecz, krew i pieśń, która nie daje zasnąć – Pieśń krwi",
+    "zajawka": "Wyobraź sobie, że jako mały chłopiec zostajesz porzucony przez własnego ojca pod bramą Zakonu, który szkoli najbrutalniejszych wojowników religijnych na świecie. Witamy w Zjednoczonym Królestwie – miejscu, gdzie Twoja lojalność należy do Wiary, a każdy dzień to krwawa walka o przetrwanie.",
+    "info": "2015 · Anthony Ryan",
+    "ocena": "8.8/10",
+    "data": "2026-06-08",
+    "url": "recenzje.html?id=14",
+    "tresc": {
+        "": "Cześć, Kinematopaci! Nie pamiętam dokładnie, w jakich okolicznościach ta gruba cegła trafiła w moje ręce – prawdopodobnie skusiła mnie mroczna okładka i obietnica epickiej przygody. Wiem natomiast, że moje początki z nią były dość wymagające, bo autor wrzuca nas w rozbudowany, skomplikowany świat bez żadnego ostrzeżenia. Być może na starcie przytłoczyła mnie ta cała zakonna dyscyplina. Szybko jednak okazało się, że to jedna z najlepszych książek fantasy, jakie czytałem w życiu, a ja po prostu musiałem dać się ponieść tej niesamowitej melodii.",
+        "rozdzialy": [
+            {
+                "naglowek": "",
+                "tekst": "Fabuła Pieśni krwi (pierwszego tomu cyklu Krukowa Cień) skupia się wokół Vaelina Al Sorna. Jako dziesięciolatek trafia on do Szóstego Zakonu, którego zadaniem jest toczenie wojen w imieniu Wiary. Jeśli jednak myślicie, że to kolejna urocza opowieść o szkole dla czarodziejów czy rycerzy, to grubo się mylicie. Zakonni mistrzowie to bezwzględni ludzie, którzy traktują dzieci jak surowiec na morderców – próby, którym poddawani są chłopcy, często kończą się kalectwem lub śmiercią. Vaelin na własnej skórze doświadcza, czym jest ból, głód i braterstwo wykute w stali. Z czasem chłopak odkrywa, że drzemie w nim coś jeszcze – tajemnicza 'pieśń krwi', która ostrzega go przed niebezpieczeństwem."
+            },
+            {
+                "naglowek": "Bracia broni kontra dworskie intrygi",
+                "tekst": "Jak w każdej militarnej społeczności, najsilniejszą więzią staje się ta łącząca towarzyszy z jednego rocznika. Tylko co zrobić, gdy po latach morderczego treningu stajesz się najlepszą bronią królestwa, a król postanawia wykorzystać was do własnych, brudnych gierek politycznych? Jesteś dla władców tylko pionkiem na mapie, więc naturalnie musisz lawirować między lojalnością wobec Zakonu, Wiary a własnym sumieniem. Anthony Ryan genialnie prowadzi fabułę z perspektywy dorosłego Vaelina, który opowiada swoją historię królewskiemu kronikarzowi. Ta gra pozorów i stopniowe odkrywanie prawdy o świecie trzyma w napięciu do ostatniej strony. Ciężko tu o bezpieczne wybory, ale bohaterowie robią wszystko, by zachować resztki człowieczeństwa w świecie pełnym rzezi."
+            },
+            {
+                "naglowek": " ",
+                "tekst": "Ocena: 8.8/10"
+            },
+            {
+                "naglowek": "Podsumowanie",
+                "tekst": "Tego, jak niesamowicie emocjonująca i dojrzała jest to powieść, nie jestem w stanie w pełni oddać słowami. Od ekscytacji podczas genialnie opisanych walk, przez podziw dla braterskiej lojalności, aż po totalny smutek przy stratach kolejnych bohaterów. Pieśń krwi to nie jest książka na jedno posiedzenie, którą odłożycie bez emocji. Ta mroczna, surowa historia wciąga czytelnika jak pies klapki Twojego starego i nie puszcza aż do samego finału. Pamiętajcie, że to tylko moja opinia, a ja chętnie dowiem się, czy Wy też daliście się porwać tej opowieści. Po pełną, dłuższą analizę i omówienie losów Vaelina zapraszam na mój kanał YT – link tradycyjnie na dole!"
+            }
+        ]
+    },
+    "informacje": {
+        "Tytuł": "Pieśń krwi (Blood Song)",
+        "Autor": "Anthony Ryan",
+        "Cykl": "Krukowa Cień (Tom 1)",
+        "Gatunek": "Dark fantasy, Fantasy epickie"
+    }
+}
+
+
     ]
 }

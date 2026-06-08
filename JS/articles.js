@@ -6,14 +6,13 @@ fetch('../data/articles.json')
     .then(data => {
         const articles = data.articles;
 
-        // Sortuj od najnowszych
-        articles.sort((a, b) => new Date(b.data) - new Date(a.data));
+        articles.sort((a, b) => b.id - a.id);
 
         // STRONA GŁÓWNA — najnowsze artykuły ze wszystkich kategorii
         if (page === 'index.html' || page === '') {
-            const grid = document.querySelector('.articles-structure');
-            if (grid) renderCards(articles, grid, true);
-        }
+    const grid = document.querySelector('.articles-structure');
+    if (grid) renderCards(articles.slice(0, 4), grid, true);
+}
 
         // STRONA FILMÓW
         if (page === 'films.html') {
@@ -31,13 +30,6 @@ fetch('../data/articles.json')
         if (page === 'books.html') {
             const grid = document.getElementById('recenzje-grid');
             if (grid) renderCards(articles.filter(a => a.kategoria === 'ksiazka'), grid, false);
-        }
-
-        // STRONA RECENZJI — pojedynczy artykuł
-        if (page === 'recenzje.html') {
-            const id = parseInt(new URLSearchParams(window.location.search).get('id'));
-            const art = articles.find(a => a.id === id);
-            if (art) renderArticle(art);
         }
     })
     .catch(err => console.error('Błąd ładowania artykułów:', err));
@@ -145,11 +137,11 @@ function toggleFavorite(id, btn) {
 
     if (favorites.includes(id)) {
         favorites = favorites.filter(f => f !== id);
-        btn.textContent = '☆ Dodaj do ulubionych';
+        btn.textContent = '☆';
         btn.classList.remove('fav-active');
     } else {
         favorites.push(id);
-        btn.textContent = '★ Ulubione';
+        btn.textContent = '★';
         btn.classList.add('fav-active');
     }
 
