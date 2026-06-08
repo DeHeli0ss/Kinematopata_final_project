@@ -1,0 +1,77 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "kategoria": "film",
+            "tytul": "Oppenheimer — geniusz i jego cień",
+            "zajawka": "Christopher Nolan stworzył epickie dzieło o człowieku, który zmienił bieg historii.",
+            "info": "2023 · Christopher Nolan · 3h",
+            "ocena": "9.5/10",
+            "data": "2026-05-10",
+            "url": "recenzje.html?id=1",
+            "tresc": {
+                "wprowadzenie": "Wprowadzenie do recenzji...",
+                "rozdzialy": [
+                    { "naglowek": "Fabuła", "tekst": "Treść..." },
+                    { "naglowek": "Reżyseria", "tekst": "Treść..." },
+                    { "naglowek": "Podsumowanie", "tekst": "Treść..." }
+                ]
+            },
+            "informacje": {
+                "Tytuł": "Oppenheimer",
+                "Reżyser": "Christopher Nolan",
+                "Rok": "2023",
+                "Czas": "3h",
+                "Gatunek": "Dramat, historyczny"
+            }
+        },
+        {
+            "id": 2,
+            "kategoria": "serial",
+            "tytul": "The Bear — kuchnia jako pole bitwy",
+            "zajawka": "Serial FX zredefiniował dramat kuchenny. Napięcie na poziomie thrillera.",
+            "info": "2022 · Christopher Storer · 3 sezony",
+            "ocena": "9/10",
+            "data": "2026-05-08",
+            "url": "recenzje.html?id=2",
+            "tresc": {
+                "wprowadzenie": "Wprowadzenie...",
+                "rozdzialy": [
+                    { "naglowek": "Fabuła", "tekst": "Treść..." },
+                    { "naglowek": "Podsumowanie", "tekst": "Treść..." }
+                ]
+            },
+            "informacje": {
+                "Tytuł": "The Bear",
+                "Twórca": "Christopher Storer",
+                "Rok": "2022",
+                "Sezony": "3",
+                "Gatunek": "Dramat, komedia"
+            }
+        },
+        {
+            "id": 3,
+            "kategoria": "ksiazka",
+            "tytul": "Solaris — pytanie bez odpowiedzi",
+            "zajawka": "Lem napisał powieść której nie da się wyczerpać.",
+            "info": "1961 · Stanisław Lem · 272 str.",
+            "ocena": "10/10",
+            "data": "2026-05-05",
+            "url": "recenzje.html?id=3",
+            "tresc": {
+                "wprowadzenie": "Wprowadzenie...",
+                "rozdzialy": [
+                    { "naglowek": "Fabuła", "tekst": "Treść..." },
+                    { "naglowek": "Podsumowanie", "tekst": "Treść..." }
+                ]
+            },
+            "informacje": {
+                "Tytuł": "Solaris",
+                "Autor": "Stanisław Lem",
+                "Rok": "1961",
+                "Stron": "272",
+                "Gatunek": "Science fiction"
+            }
+        }
+    ]
+}

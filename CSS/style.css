@@ -131,3 +131,171 @@ main{
     font-size: 36px;
     font-weight: bold;
 }
+/* Tag kategorii na stronie głównej */
+.card-kategoria {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+.card-kategoria.film    { background: #1e3a5f; color: #7ab3e0; }
+.card-kategoria.serial  { background: #1e4a3a; color: #7ae0b3; }
+.card-kategoria.ksiazka { background: #4a1e3a; color: #e07ab3; }
+
+/* Akcje pod linkiem */
+.recenzja-akcje {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+/* Przycisk ulubionych */
+.fav-btn {
+    background: transparent;
+    border: 1px solid #444;
+    color: #888;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+.fav-btn:hover  { border-color: #c9a96e; color: #c9a96e; }
+.fav-btn.fav-active { border-color: #c9a96e; color: #c9a96e; background: rgba(201,169,110,0.1); }
+/* SIATKA KART NA STRONIE GŁÓWNEJ */
+.articles-structure {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+/* POJEDYNCZA KARTA */
+.article-card {
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.article-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+/* Kolorowa kreska u góry zależna od kategorii */
+.article-card.film    { border-top: 3px solid #7ab3e0; }
+.article-card.serial  { border-top: 3px solid #7ae0b3; }
+.article-card.ksiazka { border-top: 3px solid #e07ab3; }
+
+/* GÓRNY PASEK — tag i ocena */
+.article-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-card-ocena {
+    color: #c9a96e;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* TYTUŁ */
+.article-card-tytul {
+    color: #f0f0f0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.article-card:hover .article-card-tytul {
+    color: #c9a96e;
+    transition: color 0.2s;
+}
+
+/* INFO np. rok · reżyser */
+.article-card-info {
+    color: #555;
+    font-size: 0.76rem;
+    margin: 0;
+}
+
+/* ZAJAWKA */
+.article-card-zajawka {
+    color: #999;
+    font-size: 0.85rem;
+    line-height: 1.55;
+    margin: 0;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* STOPKA KARTY */
+.article-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #2a2a2a;
+    margin-top: auto;
+}
+
+.article-card-link {
+    color: #c9a96e;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 1px solid #6e4e1e;
+    padding: 5px 12px;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.article-card-link:hover {
+    background: #c9a96e;
+    color: #111;
+}
+
+/* PRZYCISK ULUBIONYCH W STOPCE */
+.article-card .fav-btn {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+}
+
+@media (max-width: 600px) {
+    .articles-structure {
+        grid-template-columns: 1fr;
+    }
+}
+.fav-btn-star {
+    background: transparent;
+    border: none;
+    color: #555;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.fav-btn-star:hover {
+    color: #c9a96e;
+    transform: scale(1.2);
+}
+
+.fav-btn-star.fav-active {
+    color: #c9a96e;
+}

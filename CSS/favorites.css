@@ -1,0 +1,284 @@
+/* SEKCJA */
+.fav-section {
+    background: #434343;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+/* NAGŁÓWEK SEKCJI */
+.fav-section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.fav-dot {
+    width: 10px;
+    height: 10px;
+    background: #c9a96e;
+    border-radius: 50%;
+    flex-shrink: 0;
+    animation: pulse 2s infinite;
+}
+
+.fav-section-header h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+/* FORMULARZ DODAWANIA */
+.fav-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    background: #1c1c1c;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.fav-form input,
+.fav-form select {
+    flex: 1 1 180px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+    padding: 8px 4px;
+    color: #fff;
+    font-size: 0.9rem;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fav-form input::placeholder {
+    color: #555;
+}
+
+.fav-form input:focus,
+.fav-form select:focus {
+    border-bottom-color: #c9a96e;
+}
+
+.fav-form select {
+    background: #1c1c1c;
+    cursor: pointer;
+}
+
+.fav-form select option {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+.fav-form button {
+    background: transparent;
+    border: 2px solid #c9a96e;
+    color: #c9a96e;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: flex-end;
+}
+
+.fav-form button:hover {
+    background: #c9a96e;
+    color: #111;
+}
+
+/* LISTA POZYCJI */
+.fav-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* POJEDYNCZA POZYCJA NA LIŚCIE */
+.fav-item {
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-left: 3px solid #c9a96e;
+}
+
+.fav-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.fav-item-tytul {
+    color: #f0f0f0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.fav-item-szczegoly {
+    color: #666;
+    font-size: 0.78rem;
+}
+
+/* BADGE STATUSU */
+.fav-status {
+    font-size: 0.72rem;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.status-do   { background: #1e3a5f; color: #7ab3e0; }
+.status-tak  { background: #1e4a3a; color: #7ae0b3; }
+.status-w    { background: #4a3a1e; color: #e0c97a; }
+
+/* PRZYCISK USUŃ */
+.fav-delete-btn {
+    background: transparent;
+    border: 1px solid #333;
+    color: #555;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.fav-delete-btn:hover {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+/* BRAK POZYCJI */
+.fav-empty {
+    color: #555;
+    font-style: italic;
+    font-size: 0.9rem;
+    padding: 10px 0;
+}
+
+/* KARTA ULUBIONEJ RECENZJI */
+.fav-recenzja-karta {
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-left: 3px solid #c9a96e;
+    margin-bottom: 10px;
+}
+
+.fav-recenzja-karta:hover {
+    background: #242424;
+}
+
+.fav-recenzja-ocena {
+    color: #c9a96e;
+    font-weight: bold;
+    font-size: 1.3rem;
+    min-width: 70px;
+    text-align: center;
+    border-right: 1px solid #2e2e2e;
+    padding-right: 20px;
+}
+
+.fav-recenzja-srodek {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fav-recenzja-tytul {
+    color: #f0f0f0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.fav-recenzja-info {
+    color: #666;
+    font-size: 0.78rem;
+    margin: 0;
+}
+
+.fav-recenzja-akcje {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.fav-czytaj-btn {
+    color: #c9a96e;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: bold;
+    border: 1px solid #6e4e1e;
+    padding: 6px 14px;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+}
+
+.fav-czytaj-btn:hover {
+    background: #c9a96e;
+    color: #111;
+}
+
+.fav-remove-btn {
+    background: transparent;
+    border: 1px solid #333;
+    color: #555;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.fav-remove-btn:hover {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+@media (max-width: 600px) {
+    .fav-form { flex-direction: column; }
+    .fav-item { flex-direction: column; align-items: flex-start; }
+    .fav-recenzja-karta { flex-direction: column; }
+    .fav-recenzja-ocena { border-right: none; border-bottom: 1px solid #2e2e2e; padding: 0 0 10px 0; width: 100%; text-align: left; }
+}
+.fav-status-select {
+    background: #1c1c1c;
+    border: 1px solid #444;
+    color: #c9a96e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fav-status-select:focus {
+    border-color: #c9a96e;
+}
+
+.fav-status-select option {
+    background: #1c1c1c;
+    color: #fff;
+}

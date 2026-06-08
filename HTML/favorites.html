@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css"/>
+    <link rel="stylesheet" href="../CSS/favorites.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinematopata — Ulubione</title>
+</head>
+<body>
+    <header>
+        <img src="../images/baner.jpg" alt="Baner strony Kinematopata" id="banner-site">
+    </header>
+    <nav>
+        <ul id="nav">
+            <li><a href="index.html">Strona Glowna</a></li>
+            <li><a href="filims.html">Filmy</a></li>
+            <li><a href="series.html">Seriale</a></li>
+            <li><a href="books.html">Ksiazki</a></li>
+            <li><a href="#">Kontakt</a>
+                <ul>
+                    <li><a href="contactform.html">Formularz kontaktowy</a></li>
+                    <li><a href="">O mnie</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- SEKCJA 1: Ulubione recenzje z bloga -->
+        <section class="fav-section">
+            <div class="fav-section-header">
+                <span class="fav-dot"></span>
+                <h2>Ulubione recenzje</h2>
+            </div>
+            <div id="fav-recenzje-grid">
+                <!-- wypełniane przez favorites.js -->
+            </div>
+        </section>
+
+        <!-- SEKCJA 2: Moja lista filmów -->
+        <section class="fav-section">
+            <div class="fav-section-header">
+                <span class="fav-dot"></span>
+                <h2>Moja lista filmów</h2>
+            </div>
+
+            <!-- Formularz dodawania filmu -->
+            <form id="form-film" onsubmit="addItem(event, 'filmy')">
+                <div class="fav-form">
+                    <input type="text"      id="film-tytul"   placeholder="Tytuł filmu"     required>
+                    <input type="text"      id="film-rezyser" placeholder="Reżyser (opcjonalne)" >
+                    <input type="number"    id="film-rok"     placeholder="Rok"  min="1900" max="2099">
+                    <select id="film-status">
+                        <option value="Do obejrzenia">Do obejrzenia</option>
+                        <option value="Obejrzany">Obejrzany</option>
+                        <option value="W trakcie">W trakcie</option>
+                    </select>
+                    <button type="submit">Dodaj film</button>
+                </div>
+            </form>
+
+            <div id="lista-filmy" class="fav-lista">
+                <!-- wypełniane przez favorites.js -->
+            </div>
+        </section>
+
+        <!-- SEKCJA 3: Moja lista seriali -->
+        <section class="fav-section">
+            <div class="fav-section-header">
+                <span class="fav-dot"></span>
+                <h2>Moja lista seriali</h2>
+            </div>
+
+            <!-- Formularz dodawania serialu -->
+            <form id="form-serial" onsubmit="addItem(event, 'seriale')">
+                <div class="fav-form">
+                    <input type="text"   id="serial-tytul"   placeholder="Tytuł serialu"   required>
+                    <input type="text"   id="serial-tworca"  placeholder="Twórca (opcjonalne)">
+                    <input type="number" id="serial-sezony"  placeholder="Liczba sezonów"   min="1">
+                    <select id="serial-status">
+                        <option value="Do obejrzenia">Do obejrzenia</option>
+                        <option value="Obejrzany">Obejrzany</option>
+                        <option value="W trakcie">W trakcie</option>
+                    </select>
+                    <button type="submit">Dodaj serial</button>
+                </div>
+            </form>
+
+            <div id="lista-seriale" class="fav-lista">
+                <!-- wypełniane przez favorites.js -->
+            </div>
+        </section>
+
+        <!-- SEKCJA 4: Moja lista książek -->
+        <section class="fav-section">
+            <div class="fav-section-header">
+                <span class="fav-dot"></span>
+                <h2>Moja lista książek</h2>
+            </div>
+
+            <form id="form-ksiazka" onsubmit="addItem(event, 'ksiazki')">
+                <div class="fav-form">
+                    <input type="text" id="ksiazka-tytul"  placeholder="Tytuł książki"  required>
+                    <input type="text" id="ksiazka-autor"  placeholder="Autor (opcjonalne)" >
+                    <input type="number" id="ksiazka-rok"  placeholder="Rok wydania"     min="1">
+                    <select id="ksiazka-status">
+                        <option value="Do przeczytania">Do przeczytania</option>
+                        <option value="Przeczytana">Przeczytana</option>
+                        <option value="W trakcie">W trakcie</option>
+                    </select>
+                    <button type="submit">Dodaj książkę</button>
+                </div>
+            </form>
+
+            <div id="lista-ksiazki" class="fav-lista">
+                <!-- wypełniane przez favorites.js -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="../JS/articles.js"></script>
+    <script src="../JS/favorites.js"></script>
+</body>
+</html>

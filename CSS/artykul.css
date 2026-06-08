@@ -1,0 +1,211 @@
+#artykul-main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ═══════════════════════════
+   GÓRNA SEKCJA
+   ═══════════════════════════ */
+#artykul-top {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* LEWA — nagłówek */
+#artykul-naglowek {
+    flex: 2;
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 32px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* KATEGORIA */
+#artykul-kategoria {
+    margin: 0;
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Kolor kategorii */
+#artykul-kategoria.film    { color: #7ab3e0; }
+#artykul-kategoria.serial  { color: #7ae0b3; }
+#artykul-kategoria.ksiazka { color: #e07ab3; }
+
+/* Kreska u góry zależna od kategorii */
+#artykul-naglowek.film    { border-top: 3px solid #7ab3e0; }
+#artykul-naglowek.serial  { border-top: 3px solid #7ae0b3; }
+#artykul-naglowek.ksiazka { border-top: 3px solid #e07ab3; }
+
+/* TYTUŁ */
+#artykul-tytul {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #f0f0f0;
+    line-height: 1.2;
+}
+
+/* OCENA + DATA obok siebie */
+#artykul-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#artykul-ocena {
+    color: #c9a96e;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#artykul-data {
+    color: #555;
+    font-size: 0.8rem;
+}
+
+/* ZAJAWKA */
+#artykul-zajawka {
+    margin: 0;
+    color: #999;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    border-left: 3px solid #c9a96e;
+    padding-left: 14px;
+}
+
+/* PRZYCISK ULUBIONYCH */
+#artykul-fav-btn {
+    align-self: flex-start;
+    background: transparent;
+    border: 1px solid #444;
+    color: #888;
+    padding: 7px 16px;
+    border-radius: 5px;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#artykul-fav-btn:hover {
+    border-color: #c9a96e;
+    color: #c9a96e;
+}
+
+#artykul-fav-btn.fav-active {
+    border-color: #c9a96e;
+    color: #c9a96e;
+    background: rgba(201, 169, 110, 0.1);
+}
+
+/* PRAWA — informacje */
+#artykul-info {
+    flex: 1;
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 24px 28px;
+}
+
+#artykul-info h3 {
+    margin: 0 0 16px 0;
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c9a96e;
+}
+
+/* POJEDYNCZY WIERSZ INFORMACJI */
+.info-wiersz {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 0;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.info-wiersz:last-child {
+    border-bottom: none;
+}
+
+.info-klucz {
+    font-size: 0.68rem;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.info-wartosc {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* ═══════════════════════════
+   DOLNA SEKCJA — treść
+   ═══════════════════════════ */
+#artykul-tresc {
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 36px 40px;
+}
+
+/* WPROWADZENIE */
+#artykul-wprowadzenie {
+    font-size: 1rem;
+    color: #bbb;
+    line-height: 1.8;
+    margin: 0 0 32px 0;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+/* NAGŁÓWEK ROZDZIAŁU */
+.rozdzial-naglowek {
+    font-size: 1.15rem;
+    color: #c9a96e;
+    margin: 32px 0 10px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.rozdzial-naglowek:first-of-type {
+    margin-top: 0;
+}
+
+/* TEKST ROZDZIAŁU */
+.rozdzial-tekst {
+    font-size: 0.95rem;
+    color: #999;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* ═══════════════════════════
+   RESPONSYWNOŚĆ
+   ═══════════════════════════ */
+@media (max-width: 700px) {
+    #artykul-top {
+        flex-direction: column;
+    }
+
+    #artykul-naglowek,
+    #artykul-info {
+        width: 100%;
+    }
+
+    #artykul-tytul {
+        font-size: 1.4rem;
+    }
+
+    #artykul-tresc {
+        padding: 24px 20px;
+    }
+}

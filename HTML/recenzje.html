@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css"/>
+    <link rel="stylesheet" href="../CSS/artykul.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recenzja — Kinematopata</title>
+</head>
+<body>
+
+    <header>
+        <img src="../images/baner.jpg" alt="Baner strony Kinematopata" id="banner-site">
+    </header>
+
+    <nav>
+        <ul id="nav">
+            <li><a href="index.html">Strona Glowna</a></li>
+            <li><a href="filims.html">Filmy</a></li>
+            <li><a href="series.html">Seriale</a></li>
+            <li><a href="books.html">Ksiazki</a></li>
+            <li><a href="#">Kontakt</a>
+                <ul>
+                    <li><a href="contactform.html">Formularz kontaktowy</a></li>
+                    <li><a href="">O mnie</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="artykul-main">
+
+        <!-- GÓRNA SEKCJA — podstawowe informacje -->
+        <div id="artykul-top">
+
+            <!-- LEWA: tytuł, kategoria, ocena, data -->
+            <div id="artykul-naglowek">
+                <p id="artykul-kategoria"></p>
+                <h1 id="artykul-tytul"></h1>
+                <div id="artykul-meta">
+                    <span id="artykul-ocena"></span>
+                    <span id="artykul-data"></span>
+                </div>
+                <p id="artykul-zajawka"></p>
+                <button id="artykul-fav-btn" onclick="toggleFavArticle()">☆ Dodaj do ulubionych</button>
+            </div>
+
+            <!-- PRAWA: tabela z informacjami -->
+            <aside id="artykul-info">
+                <h3>Informacje</h3>
+                <div id="info-lista"></div>
+            </aside>
+
+        </div>
+
+        <!-- DOLNA SEKCJA — pełna treść recenzji -->
+        <div id="artykul-tresc">
+            <p id="artykul-wprowadzenie"></p>
+            <div id="artykul-rozdzialy"></div>
+        </div>
+
+    </main>
+
+    <script src="../JS/articles.js"></script>
+    <script src="../JS/recenzja.js"></script>
+</body>
+</html>
