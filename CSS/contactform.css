@@ -1,1094 +1,196 @@
-/* Główny kontener — flex dwukolumnowy */
-#contact-form {
+#artykul-main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px 60px 20px;
     display: flex;
-    background: #434343;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
+    flex-direction: column;
     gap: 20px;
 }
 
-/* LEWA — dane kontaktowe */
-.left-side {
-    background: #1c1c1c;
-    border-radius: 8px;
-    
-    padding: 30px 20px;
+#artykul-top {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+#artykul-naglowek {
     flex: 1;
-}
-
-/* Grid 2-kolumnowy: ikona | tekst */
-div.contact-info {
-    display: grid;
-    grid-template-columns: 74px 1fr;
-    gap: 20px 14px;
-    align-items: center;
-}
-
-/* Ikony — okrągły kontener ze złotym obramowaniem */
-.icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 64px;
-    height: 64px;
-    flex-shrink: 0;
-}
-
-.icon img {
-    width: 64px;
-    height: 64px;
-    object-fit: contain;
-    mix-blend-mode: lighten;
-}
-
-.icon a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-/* Tytuł nad informacją */
-.contact-title {
-    font-size: 0.75rem;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    color: #c9a96e;
-    text-transform: uppercase;
-    margin: 0 0 4px 0;
-}
-
-/* Tekst z informacją (email, nazwa konta) */
-.contact-detail {
-    font-size: 0.85rem;
-    color: #aaa;
-    line-height: 1.5;
-    margin: 0;
-}
-
-/* PRAWA — formularz */
-#right-side {
     background: #1c1c1c;
-    border-radius: 8px;
-    
-    padding: 30px 20px;
-    flex: 2;
-}
-
-#right-side h3 {
-    color: #fff;
-    font-size: 1.1rem;
-    margin: 0 0 20px 0;
-    letter-spacing: 0.05em;
-}
-
-/* Tabela formularza */
-form table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-form table td {
-    padding: 10px 8px;
-    vertical-align: top;
-}
-
-/* Labelki */
-form table td:first-child {
-    width: 160px;
-    color: #aaa;
-    font-size: 0.85rem;
-    padding-top: 14px;
-}
-
-/* Pola input i textarea */
-form table input,
-form table textarea {
-    width: 100%;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #444;
-    padding: 8px 0;
-    color: #fff;
-    font-size: 0.9rem;
-    outline: none;
-}
-
-form table input:focus,
-form table textarea:focus {
-    border-bottom-color: #c9a96e;
-}
-
-form table input::placeholder,
-form table textarea::placeholder {
-    color: #555;
-}
-
-form table textarea {
-    height: 120px;
-    resize: none;
-}
-
-/* Lista wyboru */
-form table select {
-    width: 100%;
-    background: #1c1c1c;
-    border: none;
-    border-bottom: 1px solid #444;
-    padding: 8px 0;
-    color: #fff;
-    font-size: 0.9rem;
-    outline: none;
-    cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;
-}
-
-form table select:focus {
-    border-bottom-color: #c9a96e;
-}
-
-form table select option {
-    background: #1c1c1c;
-    color: #fff;
-}
-
-/* Przycisk */
-form table button {
-    margin-top: 10px;
-    background: transparent;
-    border: 2px solid #c9a96e;
-    color: #c9a96e;
-    padding: 10px 30px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background 0.2s, color 0.2s;
-}
-
-form table button:hover {
-    background: #c9a96e;
-    color: #111;
-}
-@media (max-width: 750px) {
-    #contact-form {
-        flex-direction: column;
-        margin: 10px;
-        padding: 14px;
-    }
-
-    .left-side,
-    #right-side {
-        width: 100%;
-        flex: none;
-    }
-
-    div.contact-info {
-        grid-template-columns: 50px 1fr;
-        gap: 14px 10px;
-    }
-
-    .icon,
-    .icon img {
-        width: 44px;
-        height: 44px;
-    }
-
-    form table {
-        display: block;
-    }
-
-    form table tr {
-        display: block;
-        margin-bottom: 14px;
-    }
-
-    form table td {
-        display: block;
-        width: 100% !important;
-        padding: 4px 0;
-    }
-
-    form table td:first-child {
-        padding-top: 4px;
-    }
-}
-
-Claude finished the response
-Laboratorium 3 TM AVR.pdf
-Mam miec wejsciowke z materialu zawartego w pdf. Odpowedz na pytania kontrolne i zrob z nich notatke uzywajac informacji z pliku. Wyczerp temat calkowicie pamietajac by uzywac tylko informacji zawartch w przeslanym pliku
-
-May 6
-
-Reading frontend design skill
-Reading frontend design skill
-Teraz przygotuję szczegółową notatkę z odpowiedziami na pytania kontrolne i całym materiałem z PDF.
-
-
-Ran 2 commands, created a file, read a file
-Ran 2 commands, created a file, read a file
-Notatka gotowa! Oto co zawiera dokument:
-
-1. Podstawy liczników – zasada działania TCNTn, przepełnienie (TOVn), zrównanie (OCn), źródła taktowania.
-
-2. Rejestry – szczegółowy opis każdego rejestru (TCCR0/2, TCNTn, OCRn, TIMSK, TIFR) z tabelami bitów i tabelami prescalerów dla T/C0 i T/C2.
-
-3. Tryby pracy – Normal, CTC i PWM z wzorami i przykładami liczbowymi z instrukcji.
-
-4. Pełne odpowiedzi na pytania kontrolne:
-
-Pytanie 1 – opis trybu NORMAL + gotowy kod dla preskalera 1/8 i pomiaru 200 impulsów (TCNT0 = 56)
-Pytanie 2 – dwa rozwiązania: zliczanie 500 impulsów przez 2 przepełnienia (tryb Normal) lub 2 zrównania z OCR0=249 (tryb CTC)
-5. Przykład kodu z instrukcji z komentarzami.
-
-6. Ściągawka – tabele WGMn (tryby), COMn (wyjście OCn), wzory PWM/CTC i lista rzeczy do zapamiętania.
-
-
-Notatka timery avr lab3
-Document · DOCX 
-No ale wait tam masz w kodzie napisane CK/8 a mialbyc prescaler 1/8
-
-May 6
-Masz rację, to jest to samo! CK/8 to dokładnie prescaler 1/8 – oznaczają tę samą rzecz, tylko inaczej zapisaną:
-
-CK/8 = częstotliwość zegara podzielona przez 8
-1/8 = dzielnik 1 do 8, czyli też dzielenie przez 8
-W dokumentacji ATmega32 (i w tabelach z PDFa) używa się zapisu CK/8, ale w kontekście laboratorium mówi się prescaler 1/8 – to są synonimy. Kod jest poprawny:
-
-c
-TCCR0 = (1 << CS01);  // CS02=0, CS01=1, CS00=0 → CK/8 = prescaler 1/8
-Zgodnie z tabelą prescalerów z PDFa: CS02=0, CS01=1, CS00=0 → „Taktowanie CK/8" – i właśnie to jest ustawione w kodzie. Notatka jest więc w porządku.
-
-jaka flaga odpowiada za wykrywanie timera ?
-
-May 7
-Na podstawie materiału z PDFa:
-
-Flaga TOVn (Timer Overflow) – ustawiana jest w rejestrze TIFR gdy licznik się przepełni (TCNTn osiągnie MAX i wróci do 0).
-
-Oraz flaga OCn (Output Compare) – ustawiana gdy TCNTn == OCRn (zrównanie).
-
-W kodzie z przykładu sprawdza się to tak:
-
-c
-if (TIFR & (1 << TOV0))  // sprawdzenie flagi przepełnienia T/C0
-Zerowanie flagi przez wpisanie 1 (nie 0!):
-
-c
-TIFR |= _BV(TOV0);
-Obie flagi siedzą w rejestrze TIFR (Timer Interrupt Flag Register), który jest wspólny dla wszystkich trzech liczników.
-
-widze rozbieznasci w twojej notatce to tryb normal licznik liczy od 0 czy od biezacej wartosci TCNTn
-
-May 7
-Masz rację, to ważna precyzja!
-
-Licznik w trybie Normal liczy od bieżącej wartości TCNTn – czyli od tego co aktualnie jest w rejestrze. Domyślnie po resecie TCNTn = 0, ale można wpisać dowolną wartość startową ręcznie.
-
-Właśnie to wykorzystuje się w przykładzie z kodu:
-
-c
-TCNT0 = 155;  // ustaw wartość startową
-Licznik nie startuje od 0, tylko od 155 – dzięki czemu do przepełnienia potrzeba tylko 256 - 155 = 101 impulsów zamiast 256.
-
-Podobnie w mojej odpowiedzi na Pytanie 1:
-
-c
-TCNT0 = 56;  // 256 - 200 = 56
-Właśnie po to ustawiamy 56 – żeby licznik przeszedł dokładnie 200 impulsów zanim się przepełni.
-
-Poprawię to w notatce – zamienię "zlicza od 0" na "zlicza od bieżącej wartości TCNTn". Czy chcesz żebym wygenerował poprawiony plik?
-
-poźniej masz zadania czyli kod do napisania napisz rozwiazanie polecenie 1, polecenia 2 i polecenia 3 pamietaj by wykorzystywac informacje zawarte w pdf
-
-May 7
-Na podstawie PDFa – oto rozwiązania wszystkich trzech poleceń:
-
-Polecenie 1 – timer10ms() i czas_1s(), tryb CTC, f=1MHz, prescaler 1/256
-
-c
-#include <avr/io.h>
-#include <util/delay.h>
-
-/*
- * Tryb CTC, prescaler 1/256, f_clk = 1MHz
- * Jeden takt licznika = 256 us
- * Dla 10ms potrzeba: 10000us / 256us = 39,06 -> OCR0 = 38
- * f_CTC = 1 000 000 / (2 * 256 * (1+38)) = 1 000 000 / 19968 ≈ 50,08 Hz -> okres ≈ 10ms
- */
-
-void timer10ms(void)
-{
-    TCNT0 = 0;                          // wyzeruj licznik
-    TIFR  |= (1 << OCF0);              // wyczysc flage przed startem
-
-    while (!(TIFR & (1 << OCF0)));     // czekaj na zrownanie TCNTn == OCR0
-
-    TIFR |= (1 << OCF0);               // wyzeruj flage
-}
-
-void czas_1s(void)
-{
-    for (uint8_t i = 0; i < 100; i++)  // 100 x 10ms = 1s
-    {
-        timer10ms();
-    }
-}
-
-int main(void)
-{
-    DDRA  = 0xFF;       // port A jako wyjscie
-    PORTA = 0x00;       // zgaszone diody
-
-    // Konfiguracja T/C0: tryb CTC (WGM01=1), prescaler 1/256 (CS02=1)
-    TCCR0 = (1 << WGM01) | (1 << CS02);
-
-    OCR0 = 38;          // 10ms przy f=1MHz, prescaler 256
-
-    while (1)
-    {
-        czas_1s();
-        PORTA ^= (1 << PA0);    // neguj linie PA0 co 1 sekunde
-    }
-
-    return 0;
-}
-Polecenie 2 – licznik zdarzeń, T0 zewnętrzny (PB0), zbocze narastające/opadające, wyświetlanie na porcie A co 200ms
-
-c
-#include <avr/io.h>
-#include <util/delay.h>
-
-int main(void)
-{
-    DDRA  = 0xFF;       // port A jako wyjscie (linijka diodowa)
-    DDRB  &= ~(1 << PB0); // PB0 (T0) jako wejscie
-    PORTA = 0x00;
-    TCNT0 = 0;
-
-    /*
-     * Tryb NORMAL (WGM = 00 - domyslnie)
-     * Zrodlo: zewnetrzny sygnal T0 przez PB0
-     * Zbocze narastajace: CS02=1, CS01=1, CS00=1
-     * Zbocze opadajace:   CS02=1, CS01=1, CS00=0
-     */
-
-    // --- wybierz jedno z ponizszych ---
-    TCCR0 = (1 << CS02) | (1 << CS01) | (1 << CS00); // zbocze NARASTAJACE
-    // TCCR0 = (1 << CS02) | (1 << CS01);             // zbocze OPADAJACE
-
-    while (1)
-    {
-        _delay_ms(200);             // odmierz 200ms
-
-        // Sprawdz flage przepelnienia
-        if (TIFR & (1 << TOV0))
-        {
-            TCCR0 = 0;              // zatrzymaj timer
-            PORTA = 0xFF;           // sygnalizacja przepelnienia (wszystkie diody)
-            while(1);               // stoj w miejscu
-        }
-
-        PORTA = TCNT0;              // wyswietl stan licznika na linijce diodowej
-    }
-
-    return 0;
-}
-Polecenie 3 – generator fali prostokątnej 200ms, wypełnienie 75% (stan 1 = 150ms, stan 0 = 50ms), tryb CTC, prescaler 1/1024, f=1MHz
-
-c
-/*
- * Obliczenia:
- * Jeden takt licznika = 1 000 000 / 1024 = 976,56 us ≈ 1,024 ms
- *
- * Stan 1 (150ms):
- * OCR0 = (150ms / 1,024ms) - 1 = 146,5 - 1 ≈ 145
- *
- * Stan 0 (50ms):
- * OCR0 = (50ms / 1,024ms) - 1 = 48,8 - 1 ≈ 48
- *
- * Uwaga: w trybie CTC czas trwania = (OCR0 + 1) * N / f_clk
- * 146 * 1024 / 1 000 000 = 149,5 ms ≈ 150ms
- *  49 * 1024 / 1 000 000 =  50,2 ms ≈  50ms
- */
-
-#include <avr/io.h>
-
-int main(void)
-{
-    DDRA = 0xFF;        // PA0 jako wyjscie sygnalu
-    PORTA = 0x00;
-
-    // Konfiguracja T/C0: tryb CTC (WGM01=1), prescaler 1/1024 (CS02=1, CS00=1)
-    TCCR0 = (1 << WGM01) | (1 << CS02) | (1 << CS00);
-
-    while (1)
-    {
-        // --- STAN 1 (150 ms) ---
-        PORTA |= (1 << PA0);        // ustaw PA0 w stan wysoki
-        TCNT0 = 0;
-        OCR0  = 145;                // 146 taktow * 1024us = ~149,5ms
-        TIFR  |= (1 << OCF0);      // wyczysc flage
-        while (!(TIFR & (1 << OCF0))); // czekaj
-        TIFR  |= (1 << OCF0);
-
-        // --- STAN 0 (50 ms) ---
-        PORTA &= ~(1 << PA0);       // ustaw PA0 w stan niski
-        TCNT0 = 0;
-        OCR0  = 48;                 // 49 taktow * 1024us = ~50,2ms
-        TIFR  |= (1 << OCF0);
-        while (!(TIFR & (1 << OCF0)));
-        TIFR  |= (1 << OCF0);
-    }
-
-    return 0;
-}
-Kluczowe rzeczy z PDFa które tu zastosowano:
-
-Tryb CTC zeruje TCNTn przy zrównaniu z OCRn – dlatego można cyklicznie zmieniać OCR0 dla różnych czasów
-Prescaler 1/1024 ustawiany przez CS02=1, CS00=1 (z tabeli)
-Zewnętrzne zbocze narastające: CS02=1, CS01=1, CS00=1
-Flagę OCF0/TOV0 zeruje się przez wpisanie 1
-image.jpg
-Mam taki kod w zadaniu 2 ale cos nie działa zobacz w czym może być problem
-
-May 7
-Widzę kilka problemów w tym kodzie:
-
-Problem 1 – linia 16: PORTB = (1<<PB0)
-
-To ustawia PB0 w stan wysoki zamiast go tylko konfigurować. Przy wejściu zewnętrznym T0 nie powinno się wymuszać stanu na pinie. Powinno być tylko:
-
-c
-DDRB &= ~(1<<PB0);   // tylko jako wejscie, bez ustawiania PORTB
-Problem 2 – linia 17: TCNT0 = 128
-
-Licznik startuje od 128 zamiast od 0, więc przepełni się już po 128 naciśnięciach zamiast po 256. Powinno być:
-
-c
-TCNT0 = 0;
-Problem 3 – linia 18: zbocze narastające zamiast opadającego
-
-Masz ustawione CS02|CS01|CS00 co według tabeli z PDFa to zbocze narastające. Jeśli Button 0 zwiera do GND (typowe), to przycisk generuje zbocze opadające i licznik nic nie zlicza. Sprawdź które zbocze chcesz:
-
-c
-// Zbocze opadajace (CS02=1, CS01=1, CS00=0):
-TCCR0 |= (1<<CS02) | (1<<CS01);
-
-// Zbocze narastajace (CS02=1, CS01=1, CS00=1):
-TCCR0 |= (1<<CS02) | (1<<CS01) | (1<<CS00);
-Warning – F_CPU not defined
-
-To nie blokuje działania, ale warto dodać na początku kodu przed includami:
-
-c
-#define F_CPU 1000000UL
-Największy prawdopodobny winowajca to Problem 3 – złe zbocze dla twojego przycisku.
-
-
-articles.json
-json
-
-Warunki zaliczenia lab.pdf
-
-books.html
-42 lines
-
-html
-
-
-contactform.html
-100 lines
-
-html
-
-
-films.html
-42 lines
-
-html
-
-
-recenzje.html
-67 lines
-
-html
-
-
-series.html
-42 lines
-
-html
-
-
-index.html
-140 lines
-
-html
-
-
-Omnie.html
-179 lines
-
-html
-
-
-favorites.js
-209 lines
-
-js
-
-
-recenzja.js
-96 lines
-
-js
-
-
-articles.js
-149 lines
-
-js
-
-
-galeria.js
-52 lines
-
-js
-
-
-favorites.css
-284 lines
-
-css
-
-
-artykul.css
-217 lines
-
-css
-
-
-omnie.css
-211 lines
-
-css
-
-
-films.css
-108 lines
-
-css
-
-
-style.css
-301 lines
-
-css
-
-Sprawdz czy moja strona spełnia wymagania podane w propjekcie końcowym i napisz ile dostałbym za niego punktów. Napisz przy okazji co znajduje sie w projekcie gdzie sa podane w projkecie punkty np. Fetch Api itp.  z góry dzieki
-
-10:58 AM
-Przeczytałem wszystkie pliki i wymagania. Oto szczegółowa ocena:
-
-1. Szata graficzna i responsywność (5 pkt) → ~4/5 pkt
-
-Strona ma spójną, ciemną szatę graficzną z dobrze dobraną paletą kolorów (złoto 
-#c9a96e, ciemne tła). Responsywność jest zaimplementowana przez media queries w style.css, films.css, artykul.css, omnie.css i favorites.css. Navbar zawija się na mobile (flex-wrap: wrap). Lekki minus za brak breakpointów dla średnich ekranów (tylko max-width: 600-700px).
-
-2. Formularze i walidacja (5 pkt) → ~3/5 pkt
-
-Masz dwa formularze:
-
-contactform.html – formularz kontaktowy z polami text, email, select, textarea, walidacja HTML5 przez required. Wysyłka przez Formspree.
-index.html – trzy formularze do list (filmy, seriale, książki) z polami text, number, select, walidacja HTML5 przez required.
-Brakuje natomiast pól radio i checkbox – wymagania wprost mówią o "przyciski typu radio i checkbox". Brak też walidacji JavaScript (tylko HTML5 required), komunikaty błędów nie są customowe.
-
-3. Praca z danymi – localStorage, JSON, Fetch API (10 pkt) → ~8/10 pkt
-
-To najsilniejsza część projektu:
-
-localStorage ✅ – favorites.js przechowuje listy filmów, seriali, książek oraz ulubione recenzje. Funkcje getList() i saveList() operują na JSON.
-Format JSON ✅ – articles.json to zewnętrzny plik danych z artykułami.
-Fetch API ✅ – articles.js, favorites.js i recenzja.js pobierają articles.json asynchronicznie przez fetch('../data/articles.json').
-Podgląd, modyfikacja, usuwanie ✅ – listy można przeglądać, zmieniać status przez select (changeStatus()), usuwać przez deleteItem().
-Mały minus za brak obsługi błędów w niektórych fetch (np. articles.js tylko loguje do konsoli).
-
-4. Jakość kodu (5 pkt) → ~3/5 pkt
-
-Kod jest czytelny, podzielony na osobne pliki JS i CSS per funkcjonalność. Są komentarze. Minusy:
-
-W books.html i series.html skrypt articles.js wczytywany jest dwa razy (raz w <head>, raz przed </body>).
-W Omnie.html link do filmów to filims.html (literówka – powinno być films.html).
-Brak walidacji W3C (nie widziałem żebyś ją robił) – wymagania mówią o braku błędów W3C.
-contactform.html odwołuje się do contactform.css którego nie ma wśród przesłanych plików.
-5. Dodatkowe elementy (5 pkt) → ~3/5 pkt
-
-Galeria/slider z automatyczną zmianą slajdów co 10s (galeria.js) ✅
-System ulubionych recenzji z synchronizacją między stronami ✅
-Dynamiczne ładowanie strony recenzji na podstawie ?id= w URL (recenzja.js) ✅
-Animacja pulsującego kropki w CSS (@keyframes pulse) ✅
-Podsumowanie:
-
-Kryterium	Max	Szacowane
-Szata graficzna i responsywność	5	4
-Formularze i walidacja	5	3
-Praca z danymi (localStorage, JSON, Fetch)	10	8
-Jakość kodu	5	3
-Dodatkowe elementy	5	3
-Razem	30	~21/30
-Główne rzeczy do poprawy przed oddaniem to usunięcie zdublowanego skryptu w books/series, naprawienie literówki filims.html w Omnie.html, dodanie pól radio/checkbox do jakiegoś formularza i sprawdzenie walidatorem W3C.
-
-to do formulsrza dodaj checkboxa i ratio dodaj tam zgadzam sie z polityka przetwarzania danych
-
-11:01 AM
-Przeczytam najpierw aktualny formularz kontaktowy:
-
-
-Ran 2 commands, edited a file
-Ran 2 commands, edited a file
-Teraz dodam style do pliku CSS (skopiuję istniejący i dodam nowe klasy):
-
-
-Ran 3 commands, read a file
-Ran 3 commands, read a file
-Gotowe! Oto co zostało dodane do formularza:
-
-Radio buttons – "Preferowany kontakt" (wymagane, HTML5 required):
-
-E-mail
-YouTube
-Instagram
-Dwa checkboxy:
-
-☑ "Zgadzam się na przetwarzanie danych osobowych..." – z required, czyli formularz nie wyśle się bez zaznaczenia
-☐ "Chcę otrzymywać powiadomienia o nowych recenzjach" – opcjonalne
-Wszystko ostylowane spójnie z resztą strony – złoty accent-color: #c9a96e, ciemne tło, hover efekty. Plik contactform.css to nowy plik który wcześniej brakowało w projekcie – wrzuć go do folderu CSS/.
-
-
-Contactform
-Code · HTML 
-
-Contactform
-Code · CSS 
-
-Want to be notified when Claude responds?
-
-
-
-
-Claude is AI and can make mistakes. Please double-check responses.
-Contactform · CSS
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family:'Times New Roman', Times, serif;
-    background-color: #b6b6b6;
-}
-img{
-    max-width: 100%;
-    display: block;
-}
-header{
-    width: 100%;
-}
- 
-header img{
-    width: 100%;
-    display: block;
-    height: auto;
-    object-fit: cover;
-}
- 
-nav{
-    width: 100%;
-    background-color: #000000;
-}
- 
-#nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
- 
-#nav li{
-    flex: 1 1 150px;
-    background: #333333;
-    position: relative;
-    transition: background-color 0.3s ease;
-    text-align: center;
-    margin: 3px;
-    border-radius: 5px;
-}
- 
-#nav li a{
-    display: block;
-    padding: 15px 20px;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
- 
-#nav li:hover{
-    background-color: #555555;
-}
- 
-#nav li:hover ul{
-    display: block;
-}
- 
-#nav li ul{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #333333;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    z-index: 100;
-    border-radius: 5px;
-    min-width: 200px;
-}
- 
-#nav li ul li{
-    margin: 0;
-}
- 
-#nav li ul li a{
-    padding: 10px 15px;
-}
- 
-main{
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
- 
-#newest-articles {
-    background: #666666;
     border-radius: 10px;
-    padding: 20px;
-}
- 
-.articles-header{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
-}
- 
-.titles-artciles-dot{
-    width: 10px;
-    height: 10px;
-    background-color:#c9a96e;
-    border-radius: 50%;
-    animation: pulse 2s infinite;
-}
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(1.5);
-        opacity: 0.5;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
- 
-.articles-header h2{
-    margin: 0;
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: bold;
-}
-/* Tag kategorii na stronie głównej */
-.card-kategoria {
-    display: inline-block;
-    font-size: 0.68rem;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 2px 8px;
-    border-radius: 4px;
-    margin-bottom: 4px;
-}
-.card-kategoria.film    { background: #1e3a5f; color: #7ab3e0; }
-.card-kategoria.serial  { background: #1e4a3a; color: #7ae0b3; }
-.card-kategoria.ksiazka { background: #4a1e3a; color: #e07ab3; }
- 
-/* Akcje pod linkiem */
-.recenzja-akcje {
+    padding: 32px 36px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap: 8px;
+    gap: 14px;
 }
- 
-/* Przycisk ulubionych */
-.fav-btn {
+
+#artykul-info {
+    flex: 1;
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 24px 28px;
+}
+
+#artykul-kategoria {
+    margin: 0;
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#artykul-kategoria.film    { color: #7ab3e0; }
+#artykul-kategoria.serial  { color: #7ae0b3; }
+#artykul-kategoria.ksiazka { color: #e07ab3; }
+
+#artykul-naglowek.film    { border-top: 3px solid #7ab3e0; }
+#artykul-naglowek.serial  { border-top: 3px solid #7ae0b3; }
+#artykul-naglowek.ksiazka { border-top: 3px solid #e07ab3; }
+
+#artykul-tytul {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #f0f0f0;
+    line-height: 1.2;
+}
+
+#artykul-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#artykul-ocena {
+    color: #c9a96e;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#artykul-data {
+    color: #555;
+    font-size: 0.8rem;
+}
+
+#artykul-zajawka {
+    margin: 0;
+    color: #999;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    border-left: 3px solid #c9a96e;
+    padding-left: 14px;
+}
+
+#artykul-fav-btn {
+    align-self: flex-start;
     background: transparent;
     border: 1px solid #444;
     color: #888;
-    padding: 5px 12px;
+    padding: 7px 16px;
     border-radius: 5px;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     cursor: pointer;
-    white-space: nowrap;
     transition: all 0.2s;
+    font-family: 'Times New Roman', Times, serif;
 }
-.fav-btn:hover  { border-color: #c9a96e; color: #c9a96e; }
-.fav-btn.fav-active { border-color: #c9a96e; color: #c9a96e; background: rgba(201,169,110,0.1); }
-/* SIATKA KART NA STRONIE GŁÓWNEJ */
-.articles-structure {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 16px;
+
+#artykul-fav-btn:hover {
+    border-color: #c9a96e;
+    color: #c9a96e;
 }
- 
-/* POJEDYNCZA KARTA */
-.article-card {
+
+#artykul-fav-btn.fav-active {
+    border-color: #c9a96e;
+    color: #c9a96e;
+    background: rgba(201, 169, 110, 0.1);
+}
+
+#artykul-info {
+    flex: 1;
     background: #1c1c1c;
     border-radius: 10px;
-    padding: 20px;
+    padding: 24px 28px;
+}
+
+#artykul-info h3 {
+    margin: 0 0 16px 0;
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c9a96e;
+}
+
+.info-wiersz {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    gap: 2px;
+    padding: 10px 0;
+    border-bottom: 1px solid #2a2a2a;
 }
- 
-.article-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+
+.info-wiersz:last-child {
+    border-bottom: none;
 }
- 
-/* Kolorowa kreska u góry zależna od kategorii */
-.article-card.film    { border-top: 3px solid #7ab3e0; }
-.article-card.serial  { border-top: 3px solid #7ae0b3; }
-.article-card.ksiazka { border-top: 3px solid #e07ab3; }
- 
-/* GÓRNY PASEK — tag i ocena */
-.article-card-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
- 
-.article-card-ocena {
-    color: #c9a96e;
-    font-weight: bold;
-    font-size: 0.9rem;
-}
- 
-/* TYTUŁ */
-.article-card-tytul {
-    color: #f0f0f0;
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 0;
-    line-height: 1.3;
-}
- 
-.article-card:hover .article-card-tytul {
-    color: #c9a96e;
-    transition: color 0.2s;
-}
- 
-/* INFO np. rok · reżyser */
-.article-card-info {
+
+.info-klucz {
+    font-size: 0.68rem;
     color: #555;
-    font-size: 0.76rem;
-    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
- 
-/* ZAJAWKA */
-.article-card-zajawka {
-    color: #999;
-    font-size: 0.85rem;
-    line-height: 1.55;
-    margin: 0;
-    flex: 1;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+
+.info-wartosc {
+    font-size: 0.9rem;
+    color: #ccc;
 }
- 
-/* STOPKA KARTY */
-.article-card-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    border-top: 1px solid #2a2a2a;
-    margin-top: auto;
+
+#artykul-tresc {
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 36px 40px;
 }
- 
-.article-card-link {
+
+#artykul-wprowadzenie {
+    font-size: 1rem;
+    color: #bbb;
+    line-height: 1.8;
+    margin: 0 0 32px 0;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.rozdzial-naglowek {
+    font-size: 1.15rem;
     color: #c9a96e;
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: bold;
-    border: 1px solid #6e4e1e;
-    padding: 5px 12px;
-    border-radius: 5px;
-    transition: background 0.2s, color 0.2s;
+    margin: 32px 0 10px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #2a2a2a;
 }
- 
-.article-card-link:hover {
-    background: #c9a96e;
-    color: #111;
+
+.rozdzial-naglowek:first-of-type {
+    margin-top: 0;
 }
- 
-/* PRZYCISK ULUBIONYCH W STOPCE */
-.article-card .fav-btn {
-    font-size: 0.75rem;
-    padding: 5px 10px;
+
+.rozdzial-tekst {
+    font-size: 0.95rem;
+    color: #999;
+    line-height: 1.8;
+    margin: 0;
 }
- 
-@media (max-width: 600px) {
-    .articles-structure {
-        grid-template-columns: 1fr;
+
+@media (max-width: 700px) {
+    #artykul-top {
+        flex-direction: column;
+    }
+
+    #artykul-naglowek,
+    #artykul-info {
+        width: 100%;
+    }
+
+    #artykul-tytul {
+        font-size: 1.4rem;
+    }
+
+    #artykul-tresc {
+        padding: 24px 20px;
     }
 }
-.fav-btn-star {
-    background: transparent;
-    border: none;
-    color: #555;
-    font-size: 1.4rem;
-    cursor: pointer;
-    padding: 4px;
-    line-height: 1;
-    transition: color 0.2s, transform 0.2s;
-}
- 
-.fav-btn-star:hover {
-    color: #c9a96e;
-    transform: scale(1.2);
-}
- 
-.fav-btn-star.fav-active {
-    color: #c9a96e;
-}
-/* ═══════════════════════════════
-   Radio buttons
-   ═══════════════════════════════ */
-.radio-group {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 6px 0;
-}
- 
-.radio-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #fff;
-    font-size: 0.9rem;
-    cursor: pointer;
-}
- 
-.radio-label input[type="radio"] {
-    accent-color: #c9a96e;
-    width: 16px;
-    height: 16px;
-    cursor: pointer;
-}
- 
-.radio-label:hover {
-    color: #c9a96e;
-}
- 
-/* ═══════════════════════════════
-   Checkboxy
-   ═══════════════════════════════ */
-.checkbox-group {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 6px 0;
-}
- 
-.checkbox-label {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    color: #bbb;
-    font-size: 0.85rem;
-    line-height: 1.5;
-    cursor: pointer;
-}
- 
-.checkbox-label input[type="checkbox"] {
-    accent-color: #c9a96e;
-    width: 16px;
-    height: 16px;
-    margin-top: 2px;
-    flex-shrink: 0;
-    cursor: pointer;
-}
- 
-.checkbox-label:hover {
-    color: #fff;
-}
- 
-.required-star {
-    color: #c0392b;
-    font-weight: bold;
-}
- 
-.required-info {
-    color: #555;
-    font-size: 0.75rem;
-    margin: 0 0 8px 0;
-    font-style: italic;
-}
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

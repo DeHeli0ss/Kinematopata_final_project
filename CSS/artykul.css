@@ -7,9 +7,6 @@
     gap: 20px;
 }
 
-/* ═══════════════════════════
-   GÓRNA SEKCJA
-   ═══════════════════════════ */
 #artykul-top {
     display: flex;
     gap: 20px;
@@ -33,7 +30,6 @@
     padding: 24px 28px;
 }
 
-/* KATEGORIA */
 #artykul-kategoria {
     margin: 0;
     font-size: 0.72rem;
@@ -42,17 +38,14 @@
     font-weight: bold;
 }
 
-/* Kolor kategorii */
 #artykul-kategoria.film    { color: #7ab3e0; }
 #artykul-kategoria.serial  { color: #7ae0b3; }
 #artykul-kategoria.ksiazka { color: #e07ab3; }
 
-/* Kreska u góry zależna od kategorii */
 #artykul-naglowek.film    { border-top: 3px solid #7ab3e0; }
 #artykul-naglowek.serial  { border-top: 3px solid #7ae0b3; }
 #artykul-naglowek.ksiazka { border-top: 3px solid #e07ab3; }
 
-/* TYTUŁ */
 #artykul-tytul {
     margin: 0;
     font-size: 1.8rem;
@@ -60,7 +53,6 @@
     line-height: 1.2;
 }
 
-/* OCENA + DATA obok siebie */
 #artykul-meta {
     display: flex;
     align-items: center;
@@ -78,7 +70,6 @@
     font-size: 0.8rem;
 }
 
-/* ZAJAWKA */
 #artykul-zajawka {
     margin: 0;
     color: #999;
@@ -88,7 +79,6 @@
     padding-left: 14px;
 }
 
-/* PRZYCISK ULUBIONYCH */
 #artykul-fav-btn {
     align-self: flex-start;
     background: transparent;
@@ -113,7 +103,6 @@
     background: rgba(201, 169, 110, 0.1);
 }
 
-/* PRAWA — informacje */
 #artykul-info {
     flex: 1;
     background: #1c1c1c;
@@ -129,7 +118,6 @@
     color: #c9a96e;
 }
 
-/* POJEDYNCZY WIERSZ INFORMACJI */
 .info-wiersz {
     display: flex;
     flex-direction: column;
@@ -154,16 +142,12 @@
     color: #ccc;
 }
 
-/* ═══════════════════════════
-   DOLNA SEKCJA — treść
-   ═══════════════════════════ */
 #artykul-tresc {
     background: #1c1c1c;
     border-radius: 10px;
     padding: 36px 40px;
 }
 
-/* WPROWADZENIE */
 #artykul-wprowadzenie {
     font-size: 1rem;
     color: #bbb;
@@ -173,7 +157,6 @@
     border-bottom: 1px solid #2a2a2a;
 }
 
-/* NAGŁÓWEK ROZDZIAŁU */
 .rozdzial-naglowek {
     font-size: 1.15rem;
     color: #c9a96e;
@@ -186,7 +169,6 @@
     margin-top: 0;
 }
 
-/* TEKST ROZDZIAŁU */
 .rozdzial-tekst {
     font-size: 0.95rem;
     color: #999;
@@ -194,9 +176,6 @@
     margin: 0;
 }
 
-/* ═══════════════════════════
-   RESPONSYWNOŚĆ
-   ═══════════════════════════ */
 @media (max-width: 700px) {
     #artykul-top {
         flex-direction: column;

@@ -131,7 +131,7 @@ main{
     font-size: 36px;
     font-weight: bold;
 }
-/* Tag kategorii na stronie głównej */
+
 .card-kategoria {
     display: inline-block;
     font-size: 0.68rem;
@@ -146,7 +146,7 @@ main{
 .card-kategoria.serial  { background: #1e4a3a; color: #7ae0b3; }
 .card-kategoria.ksiazka { background: #4a1e3a; color: #e07ab3; }
 
-/* Akcje pod linkiem */
+
 .recenzja-akcje {
     display: flex;
     flex-direction: column;
@@ -154,7 +154,7 @@ main{
     gap: 8px;
 }
 
-/* Przycisk ulubionych */
+
 .fav-btn {
     background: transparent;
     border: 1px solid #444;
@@ -168,14 +168,14 @@ main{
 }
 .fav-btn:hover  { border-color: #c9a96e; color: #c9a96e; }
 .fav-btn.fav-active { border-color: #c9a96e; color: #c9a96e; background: rgba(201,169,110,0.1); }
-/* SIATKA KART NA STRONIE GŁÓWNEJ */
+
 .articles-structure {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 16px;
 }
 
-/* POJEDYNCZA KARTA */
+
 .article-card {
     background: #1c1c1c;
     border-radius: 10px;
@@ -192,12 +192,12 @@ main{
     box-shadow: 0 8px 24px rgba(0,0,0,0.5);
 }
 
-/* Kolorowa kreska u góry zależna od kategorii */
+
 .article-card.film    { border-top: 3px solid #7ab3e0; }
 .article-card.serial  { border-top: 3px solid #7ae0b3; }
 .article-card.ksiazka { border-top: 3px solid #e07ab3; }
 
-/* GÓRNY PASEK — tag i ocena */
+
 .article-card-top {
     display: flex;
     justify-content: space-between;
@@ -210,7 +210,7 @@ main{
     font-size: 0.9rem;
 }
 
-/* TYTUŁ */
+
 .article-card-tytul {
     color: #f0f0f0;
     font-size: 1rem;
@@ -224,7 +224,7 @@ main{
     transition: color 0.2s;
 }
 
-/* INFO np. rok · reżyser */
+
 .article-card-info {
     color: #555;
     font-size: 0.76rem;
@@ -243,7 +243,7 @@ main{
     overflow: hidden;
 }
 
-/* STOPKA KARTY */
+
 .article-card-footer {
     display: flex;
     justify-content: space-between;
@@ -269,7 +269,7 @@ main{
     color: #111;
 }
 
-/* PRZYCISK ULUBIONYCH W STOPCE */
+
 .article-card .fav-btn {
     font-size: 0.75rem;
     padding: 5px 10px;

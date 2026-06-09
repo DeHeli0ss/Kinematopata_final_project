@@ -35,7 +35,7 @@ fetch('../data/articles.json')
     .catch(err => console.error('Błąd ładowania artykułów:', err));
 
 
-// ── Renderuj karty (strona główna i kategorie) ──
+//Renderuj karty (strona główna i kategorie) ──
 function renderCards(articles, container, showTag) {
     container.innerHTML = '';
 
