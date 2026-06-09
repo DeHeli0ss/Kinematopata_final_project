@@ -1,4 +1,4 @@
-// Wykryj na której stronie jesteśmy
+
 const page = window.location.pathname.split('/').pop();
 
 fetch('../data/articles.json')
@@ -8,25 +8,25 @@ fetch('../data/articles.json')
 
         articles.sort((a, b) => b.id - a.id);
 
-        // STRONA GŁÓWNA — najnowsze artykuły ze wszystkich kategorii
+        
         if (page === 'index.html' || page === '') {
     const grid = document.querySelector('.articles-structure');
     if (grid) renderCards(articles.slice(0, 4), grid, true);
 }
 
-        // STRONA FILMÓW
+       
         if (page === 'films.html') {
             const grid = document.getElementById('recenzje-grid');
             if (grid) renderCards(articles.filter(a => a.kategoria === 'film'), grid, false);
         }
 
-        // STRONA SERIALI
+        
         if (page === 'series.html') {
             const grid = document.getElementById('recenzje-grid');
             if (grid) renderCards(articles.filter(a => a.kategoria === 'serial'), grid, false);
         }
 
-        // STRONA KSIĄŻEK
+        
         if (page === 'books.html') {
             const grid = document.getElementById('recenzje-grid');
             if (grid) renderCards(articles.filter(a => a.kategoria === 'ksiazka'), grid, false);
@@ -35,7 +35,7 @@ fetch('../data/articles.json')
     .catch(err => console.error('Błąd ładowania artykułów:', err));
 
 
-//Renderuj karty (strona główna i kategorie) ──
+
 function renderCards(articles, container, showTag) {
     container.innerHTML = '';
 
@@ -49,7 +49,7 @@ function renderCards(articles, container, showTag) {
     articles.forEach(art => {
         const isFav = favorites.includes(art.id);
 
-        // Strona główna — nowy template z siatką
+        
         if (showTag) {
             container.innerHTML += `
                 <div class="article-card ${art.kategoria}" onclick="window.location.href='${art.url}'">
@@ -70,7 +70,7 @@ function renderCards(articles, container, showTag) {
                 </div>
             `;
 
-        // Strony kategorii — dotychczasowy poziomy układ
+        
         } else {
             container.innerHTML += `
                 <div class="recenzja-karta">
@@ -92,7 +92,7 @@ function renderCards(articles, container, showTag) {
         }
     });
 }
-// ── Renderuj pełny artykuł ──
+
 function renderArticle(art) {
     document.title = art.tytul;
 
@@ -103,7 +103,7 @@ function renderArticle(art) {
     if (el('artykul-data'))      el('artykul-data').textContent = art.data;
     if (el('artykul-ocena'))     el('artykul-ocena').textContent = '★ ' + art.ocena;
 
-    // Informacje
+    
     const infoLista = el('info-lista');
     if (infoLista) {
         Object.entries(art.informacje).forEach(([klucz, wartosc]) => {
@@ -116,7 +116,7 @@ function renderArticle(art) {
         });
     }
 
-    // Treść
+    
     if (el('artykul-wprowadzenie')) el('artykul-wprowadzenie').textContent = art.tresc.wprowadzenie;
 
     const rozdzialy = el('artykul-rozdzialy');
@@ -131,7 +131,7 @@ function renderArticle(art) {
 }
 
 
-// ── Ulubione — localStorage ──
+
 function toggleFavorite(id, btn) {
     let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
 

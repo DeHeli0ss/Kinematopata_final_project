@@ -1,28 +1,21 @@
-// ═══════════════════════════════════════════════
-//  favorites.js — Lista ulubionych
-//  Używa localStorage do przechowywania danych
-// ═══════════════════════════════════════════════
 
-// ── Pomocnicze: pobierz listę z localStorage ──
 function getList(key) {
     return JSON.parse(localStorage.getItem(key) || '[]');
 }
 
-// ── Pomocnicze: zapisz listę do localStorage ──
+
 function saveList(key, data) {
     localStorage.setItem(key, JSON.stringify(data));
 }
 
-// ── Pomocnicze: badge statusu ──
+
 function statusClass(status) {
     if (status.includes('obejrzan') || status.includes('Przeczytana')) return 'status-tak';
     if (status.includes('trakcie')) return 'status-w';
     return 'status-do';
 }
 
-// ═══════════════════════════════════════════════
-//  DODAJ POZYCJĘ (film / serial / książka)
-// ═══════════════════════════════════════════════
+
 function addItem(event, kategoria) {
     event.preventDefault();
 
@@ -73,18 +66,14 @@ if (kategoria === 'ksiazki') {
     renderLista(kategoria);
 }
 
-// ═══════════════════════════════════════════════
-//  USUŃ POZYCJĘ
-// ═══════════════════════════════════════════════
+
 function deleteItem(id, kategoria) {
     const lista = getList(kategoria).filter(item => item.id !== id);
     saveList(kategoria, lista);
     renderLista(kategoria);
 }
 
-// ═══════════════════════════════════════════════
-//  RENDERUJ LISTĘ (filmy / seriale / książki)
-// ═══════════════════════════════════════════════
+
 function renderLista(kategoria) {
     const container = document.getElementById('lista-' + kategoria);
     if (!container) return;
@@ -110,10 +99,7 @@ function renderLista(kategoria) {
     `).join('');
 }
 
-// ═══════════════════════════════════════════════
-//  RENDERUJ ULUBIONE RECENZJE
-//  (oznaczone gwiazdką na stronach kategorii)
-// ═══════════════════════════════════════════════
+
 function renderFavRecenzje(allArticles) {
     const container = document.getElementById('fav-recenzje-grid');
     if (!container) return;
@@ -148,7 +134,7 @@ function renderFavRecenzje(allArticles) {
     `).join('');
 }
 
-// ── Usuń recenzję z ulubionych ──
+
 function removeFavRecenzja(id) {
     const favIds = getList('favorites').filter(f => f !== id);
     saveList('favorites', favIds);
@@ -163,9 +149,7 @@ function removeFavRecenzja(id) {
         });
 }
 
-// ═══════════════════════════════════════════════
-//  INICJALIZACJA — uruchom po załadowaniu strony
-// ═══════════════════════════════════════════════
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Renderuj listy ręczne
@@ -173,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderLista('seriale');
     renderLista('ksiazki');
 
-    // Renderuj ulubione recenzje (potrzebuje articles.json)
+    
     fetch('../data/articles.json')
         .then(r => r.json())
         .then(data => renderFavRecenzje(data.articles))
@@ -183,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
-// ── Generuj opcje selecta z zaznaczonym aktualnym statusem ──
+
 function getStatusOptions(kategoria, aktualny) {
     let opcje = [];
 
@@ -198,7 +182,7 @@ function getStatusOptions(kategoria, aktualny) {
     `).join('');
 }
 
-// ── Zmień status bez usuwania rekordu ──
+
 function changeStatus(id, kategoria, nowyStatus) {
     const lista = getList(kategoria).map(item => {
         if (item.id === id) item.status = nowyStatus;

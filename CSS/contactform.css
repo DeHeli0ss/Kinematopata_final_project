@@ -1,196 +1,275 @@
-#artykul-main {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px 60px 20px;
+#contact-form {
     display: flex;
-    flex-direction: column;
+    background: #434343;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
     gap: 20px;
 }
 
-#artykul-top {
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-}
-
-#artykul-naglowek {
-    flex: 1;
+.left-side {
     background: #1c1c1c;
-    border-radius: 10px;
-    padding: 32px 36px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
-
-#artykul-info {
+    border-radius: 8px;
+    padding: 30px 20px;
     flex: 1;
-    background: #1c1c1c;
-    border-radius: 10px;
-    padding: 24px 28px;
 }
 
-#artykul-kategoria {
-    margin: 0;
-    font-size: 0.72rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    font-weight: bold;
+div.contact-info {
+    display: grid;
+    grid-template-columns: 74px 1fr;
+    gap: 20px 14px;
+    align-items: center;
 }
 
-#artykul-kategoria.film    { color: #7ab3e0; }
-#artykul-kategoria.serial  { color: #7ae0b3; }
-#artykul-kategoria.ksiazka { color: #e07ab3; }
-
-#artykul-naglowek.film    { border-top: 3px solid #7ab3e0; }
-#artykul-naglowek.serial  { border-top: 3px solid #7ae0b3; }
-#artykul-naglowek.ksiazka { border-top: 3px solid #e07ab3; }
-
-#artykul-tytul {
-    margin: 0;
-    font-size: 1.8rem;
-    color: #f0f0f0;
-    line-height: 1.2;
-}
-
-#artykul-meta {
+.icon {
     display: flex;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
 }
 
-#artykul-ocena {
-    color: #c9a96e;
+.icon img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    mix-blend-mode: lighten;
+}
+
+.icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-title {
+    font-size: 0.75rem;
     font-weight: bold;
-    font-size: 1.1rem;
-}
-
-#artykul-data {
-    color: #555;
-    font-size: 0.8rem;
-}
-
-#artykul-zajawka {
-    margin: 0;
-    color: #999;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    border-left: 3px solid #c9a96e;
-    padding-left: 14px;
-}
-
-#artykul-fav-btn {
-    align-self: flex-start;
-    background: transparent;
-    border: 1px solid #444;
-    color: #888;
-    padding: 7px 16px;
-    border-radius: 5px;
-    font-size: 0.82rem;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-#artykul-fav-btn:hover {
-    border-color: #c9a96e;
+    letter-spacing: 0.1em;
     color: #c9a96e;
-}
-
-#artykul-fav-btn.fav-active {
-    border-color: #c9a96e;
-    color: #c9a96e;
-    background: rgba(201, 169, 110, 0.1);
-}
-
-#artykul-info {
-    flex: 1;
-    background: #1c1c1c;
-    border-radius: 10px;
-    padding: 24px 28px;
-}
-
-#artykul-info h3 {
-    margin: 0 0 16px 0;
-    font-size: 0.72rem;
-    letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #c9a96e;
+    margin: 0 0 4px 0;
 }
 
-.info-wiersz {
+.contact-detail {
+    font-size: 0.85rem;
+    color: #aaa;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#right-side {
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 30px 20px;
+    flex: 2;
+}
+
+#right-side h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 0 0 20px 0;
+    letter-spacing: 0.05em;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form table td {
+    padding: 10px 8px;
+    vertical-align: top;
+}
+
+form table td:first-child {
+    width: 160px;
+    color: #aaa;
+    font-size: 0.85rem;
+    padding-top: 14px;
+}
+
+form table input,
+form table textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+form table input:focus,
+form table textarea:focus {
+    border-bottom-color: #c9a96e;
+}
+
+form table input::placeholder,
+form table textarea::placeholder {
+    color: #555;
+}
+
+form table textarea {
+    height: 120px;
+    resize: none;
+}
+
+form table select {
+    width: 100%;
+    background: #1c1c1c;
+    border: none;
+    border-bottom: 1px solid #444;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+form table select:focus {
+    border-bottom-color: #c9a96e;
+}
+
+form table select option {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+form table button {
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid #c9a96e;
+    color: #c9a96e;
+    padding: 10px 30px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
+}
+
+form table button:hover {
+    background: #c9a96e;
+    color: #111;
+}
+
+.radio-group {
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    padding: 10px 0;
-    border-bottom: 1px solid #2a2a2a;
+    gap: 8px;
+    padding: 6px 0;
 }
-
-.info-wiersz:last-child {
-    border-bottom: none;
-}
-
-.info-klucz {
-    font-size: 0.68rem;
-    color: #555;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-.info-wartosc {
+ 
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
     font-size: 0.9rem;
-    color: #ccc;
+    cursor: pointer;
 }
-
-#artykul-tresc {
-    background: #1c1c1c;
-    border-radius: 10px;
-    padding: 36px 40px;
+ 
+.radio-label input[type="radio"] {
+    accent-color: #c9a96e;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
 }
-
-#artykul-wprowadzenie {
-    font-size: 1rem;
-    color: #bbb;
-    line-height: 1.8;
-    margin: 0 0 32px 0;
-    padding-bottom: 28px;
-    border-bottom: 1px solid #2a2a2a;
-}
-
-.rozdzial-naglowek {
-    font-size: 1.15rem;
+ 
+.radio-label:hover {
     color: #c9a96e;
-    margin: 32px 0 10px 0;
-    padding-bottom: 6px;
-    border-bottom: 1px solid #2a2a2a;
+}
+ 
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 6px 0;
+}
+ 
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #bbb;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+ 
+.checkbox-label input[type="checkbox"] {
+    accent-color: #c9a96e;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+ 
+.checkbox-label:hover {
+    color: #fff;
+}
+ 
+.required-star {
+    color: #c0392b;
+    font-weight: bold;
+}
+ 
+.required-info {
+    color: #555;
+    font-size: 0.75rem;
+    margin: 0 0 8px 0;
+    font-style: italic;
 }
 
-.rozdzial-naglowek:first-of-type {
-    margin-top: 0;
-}
-
-.rozdzial-tekst {
-    font-size: 0.95rem;
-    color: #999;
-    line-height: 1.8;
-    margin: 0;
-}
-
-@media (max-width: 700px) {
-    #artykul-top {
+@media (max-width: 750px) {
+    #contact-form {
         flex-direction: column;
+        margin: 10px;
+        padding: 14px;
     }
 
-    #artykul-naglowek,
-    #artykul-info {
+    .left-side,
+    #right-side {
         width: 100%;
+        flex: none;
     }
 
-    #artykul-tytul {
-        font-size: 1.4rem;
+    div.contact-info {
+        grid-template-columns: 50px 1fr;
+        gap: 14px 10px;
     }
 
-    #artykul-tresc {
-        padding: 24px 20px;
+    .icon,
+    .icon img {
+        width: 44px;
+        height: 44px;
+    }
+
+    form table {
+        display: block;
+    }
+
+    form table tr {
+        display: block;
+        margin-bottom: 14px;
+    }
+
+    form table td {
+        display: block;
+        width: 100% !important;
+        padding: 4px 0;
+    }
+
+    form table td:first-child {
+        padding-top: 4px;
     }
 }
