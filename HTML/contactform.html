@@ -89,8 +89,42 @@
                         <td><textarea id="message" name="message" placeholder="Napisz wiadomość..." required></textarea></td>
                     </tr>
                     <tr>
+                        <td><label>Preferowany kontakt</label></td>
+                        <td>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="kontakt" value="email" required> E-mail
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="kontakt" value="facebook"> Facebook
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="kontakt" value="instagram"> Instagram
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
                         <td></td>
-                        <td><button type="submit">Wyślij</button></td>
+                        <td>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="rodo" name="rodo" required>
+                                    Zgadzam się na przetwarzanie moich danych osobowych w celu obsługi zapytania zgodnie z polityką prywatności. <span class="required-star">*</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    Chcę otrzymywać powiadomienia o nowych recenzjach (opcjonalne)
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <p class="required-info">* Pole wymagane</p>
+                            <button type="submit">Wyślij</button>
+                        </td>
                     </tr>
                 </table>
             </form>
