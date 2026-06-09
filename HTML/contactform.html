@@ -12,16 +12,16 @@
     <header>
         <img src="../images/baner.jpg" alt="Baner strony Kinematopata" id = "banner-site">
     </header>
-    <nav> 
+   <nav> 
           <ul id ="nav">
             <li><a href = "index.html">Strona Glowna</a></li>
-            <li><a href = "filims.html">Filmy</a></li>
-            <li><a href = "seriale.html">Seriale</a></li>
-            <li><a href ="ksiazki.html">Ksiazki</a></li>
+            <li><a href = "films.html">Filmy</a></li>
+            <li><a href = "series.html">Seriale</a></li>
+            <li><a href ="books.html">Ksiazki</a></li>
             <li><a href ="#">Kontakt</a>
                 <ul>
                     <li><a href="contactform.html">Formularz kontaktowy</a></li>
-                    <li><a href="">O mnie</a></li>
+                    <li><a href="omnie.html">O mnie</a></li>
                 </ul>    
             </li>
           </ul>
@@ -56,7 +56,11 @@
       
         <div id="right-side">
                 <h3>Formularz kontaktowy</h3>
-                <form action="https://formspree.io/f/TWÓJ_UNIKALNY_KOD" method="POST">
+                <form action="https://formspree.io/f/xlgvydyb" method="POST">
+                    <input type="hidden" name="_next" value="../HTML/contactform.html">
+
+                <!-- Temat maila który dostaniesz -->
+                <input type="hidden" name="_subject" value="Nowa wiadomość z Kinematopata">
                 <table>
                     <tr>
                         <td><label for="nick">Nazwa użytkownika</label></td>

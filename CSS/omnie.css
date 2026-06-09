@@ -1,0 +1,211 @@
+/* SEKCJE */
+#omnie-sekcja,
+#galeria-sekcja {
+    background: #434343;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+/* NAGŁÓWEK */
+#omnie-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.omnie-dot {
+    width: 10px;
+    height: 10px;
+    background: #c9a96e;
+    border-radius: 50%;
+    flex-shrink: 0;
+    animation: pulse 2s infinite;
+}
+
+#omnie-header h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* TEKST O MNIE */
+#omnie-tresc {
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 24px 28px;
+    border-left: 3px solid #c9a96e;
+}
+
+#omnie-tresc p {
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0 0 14px 0;
+}
+
+#omnie-tresc p:last-child {
+    margin: 0;
+}
+
+/* ═══════════════════════
+   GALERIA
+   ═══════════════════════ */
+#galeria-kontener {
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* SLAJDY — tylko aktywny widoczny */
+#galeria-slajdy {
+    position: relative;
+    min-height: 280px;
+}
+
+.slajd {
+    display: none;
+    padding: 36px 40px 28px 40px;
+    animation: wejscie 0.4s ease;
+}
+
+.slajd.aktywny {
+    display: block;
+}
+
+@keyframes wejscie {
+    from { opacity: 0; transform: translateX(20px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+/* NUMER SLAJDU */
+.slajd-numer {
+    font-size: 0.7rem;
+    color: #555;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* TREŚĆ SLAJDU */
+.slajd-tresc {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.slajd-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* AUTOR */
+.slajd-autor {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #c9a96e;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* TYTUŁ KSIĄŻKI */
+.slajd-tytul {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #f0f0f0;
+    line-height: 1.2;
+}
+
+/* ROK */
+.slajd-rok {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #555;
+}
+
+/* OPIS */
+.slajd-opis {
+    margin: 8px 0 0 0;
+    font-size: 0.92rem;
+    color: #999;
+    line-height: 1.7;
+    max-width: 580px;
+}
+
+/* TAG GATUNKU */
+.slajd-tag {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.75rem;
+    background: #4a1e3a;
+    color: #e07ab3;
+    padding: 3px 12px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+/* ═══════════════════════
+   NAWIGACJA
+   ═══════════════════════ */
+#galeria-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 18px 0;
+    border-top: 1px solid #2a2a2a;
+}
+
+/* STRZAŁKI */
+#btn-prev,
+#btn-next {
+    background: transparent;
+    border: 1px solid #444;
+    color: #c9a96e;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    line-height: 1;
+}
+
+#btn-prev:hover,
+#btn-next:hover {
+    background: #c9a96e;
+    color: #111;
+    border-color: #c9a96e;
+}
+
+/* KROPKI */
+#galeria-kropki {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.kropka {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #444;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.aktywna-kropka {
+    background: #c9a96e;
+    transform: scale(1.3);
+}
+
+/* RESPONSYWNOŚĆ */
+@media (max-width: 600px) {
+    .slajd { padding: 24px 20px 20px 20px; }
+    .slajd-tytul { font-size: 1.2rem; }
+    .slajd-opis { font-size: 0.85rem; }
+}
