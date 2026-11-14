@@ -1,1 +1,1 @@
-Oswiadczam iż projekt jest w całosci wykonany przeze mnie, a kazdy komentarz ma na celu ładtwiejsze zrouzmienie i interepretracje kodu. W przyszłosci chce korzystać z tej strony jako osobistego bloka, dlatego komentarze w nim są kluczowe w przyszłym korzystaniu ze strony. Chciałem wyjasnic sytuacje by uniknac niedopowiedzień.
+
